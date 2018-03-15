@@ -8,13 +8,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
+import com.AM.whatsbug.R;
+
 public class List_bacteria extends AppCompatActivity {
     CheckBox cb1, cb2,cb3,cb4,cb5,cb6;
     Button btn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_Check_bacteria);
+        setContentView(R.layout.activity_check_bacteria);
 
 
         cb1 = (CheckBox)findViewById(R.id.cb1);

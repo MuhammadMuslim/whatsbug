@@ -5,12 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import com.AM.whatsbug.R;
+
 public class Check_bacteria extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_List_bacteria);
+        setContentView(R.layout.activity_list_bacteria);
 
         TextView tv = (TextView) findViewById(R.id.txv);
         TextView t1 = (TextView) findViewById(R.id.t1);
