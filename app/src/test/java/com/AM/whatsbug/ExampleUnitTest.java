@@ -1,4 +1,4 @@
-package com.androidtutorialshub.loginregister;
+package com.AM.whatsbug;
 
 import org.junit.Test;
 

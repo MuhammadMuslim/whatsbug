@@ -1,4 +1,4 @@
-package com.androidtutorialshub.loginregister.activities;
+package com.AM.whatsbug.activities;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.androidtutorialshub.loginregister.R;
-import com.androidtutorialshub.loginregister.adapters.UsersRecyclerAdapter;
-import com.androidtutorialshub.loginregister.model.User;
-import com.androidtutorialshub.loginregister.sql.DatabaseHelper;
+import com.AM.whatsbug.R;
+import com.AM.whatsbug.adapters.UsersRecyclerAdapter;
+import com.AM.whatsbug.model.User;
+import com.AM.whatsbug.sql.DatabaseHelper;
 
 import java.util.ArrayList;
 import java.util.List;

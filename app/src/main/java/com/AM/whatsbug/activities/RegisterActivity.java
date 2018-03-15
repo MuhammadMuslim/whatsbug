@@ -1,4 +1,4 @@
-package com.androidtutorialshub.loginregister.activities;
+package com.AM.whatsbug.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,10 +11,10 @@ import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
-import com.androidtutorialshub.loginregister.R;
-import com.androidtutorialshub.loginregister.helpers.InputValidation;
-import com.androidtutorialshub.loginregister.model.User;
-import com.androidtutorialshub.loginregister.sql.DatabaseHelper;
+import com.AM.whatsbug.R;
+import com.AM.whatsbug.helpers.InputValidation;
+import com.AM.whatsbug.model.User;
+import com.AM.whatsbug.sql.DatabaseHelper;
 
 /**
  * Created by lalit on 8/27/2016.

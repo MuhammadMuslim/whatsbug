@@ -1,4 +1,4 @@
-package com.androidtutorialshub.loginregister.sql;
+package com.AM.whatsbug.sql;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.androidtutorialshub.loginregister.model.User;
+import com.AM.whatsbug.model.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -193,7 +193,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         /**
          * Here query function is used to fetch records from user table this function works like we use sql query.
          * SQL query equivalent to this query function is
-         * SELECT user_id FROM user WHERE user_email = 'jack@androidtutorialshub.com';
+         * SELECT user_id FROM user WHERE user_email = 'jack@AM.com';
          */
         Cursor cursor = db.query(TABLE_USER, //Table to query
                 columns,                    //columns to return
@@ -237,7 +237,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         /**
          * Here query function is used to fetch records from user table this function works like we use sql query.
          * SQL query equivalent to this query function is
-         * SELECT user_id FROM user WHERE user_email = 'jack@androidtutorialshub.com' AND user_password = 'qwerty';
+         * SELECT user_id FROM user WHERE user_email = 'jack@AM.com' AND user_password = 'qwerty';
          */
         Cursor cursor = db.query(TABLE_USER, //Table to query
                 columns,                    //columns to return
