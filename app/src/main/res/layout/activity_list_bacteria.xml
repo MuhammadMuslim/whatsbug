@@ -10,37 +10,40 @@
         android:id="@+id/txv"
         android:layout_width="59dp"
         android:layout_height="19dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="16dp"
-        android:layout_alignRight="@+id/t2"
         android:layout_alignEnd="@+id/t2"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/t2"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/t1"
         android:layout_width="69dp"
         android:layout_height="21dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="269dp"
-        android:layout_marginTop="28dp"
-        android:layout_below="@+id/txv"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txv"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="269dp" />
 
     <TextView
         android:id="@+id/t2"
         android:layout_width="68dp"
         android:layout_height="16dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="298dp"
-        android:layout_below="@+id/t1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="44dp" />
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="44dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="298dp" />
 
     <TextView
         android:id="@+id/t3"
@@ -51,6 +54,7 @@
         android:layout_below="@+id/t2"
         android:layout_marginTop="51dp"
         android:text="TextView"
+        android:textColor="@android:color/black"
         tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="325dp" />
 
