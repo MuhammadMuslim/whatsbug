@@ -35,7 +35,7 @@ public class List_bacteria extends AppCompatActivity {
         cb14 = (CheckBox)findViewById(R.id.cb14);
         cb15 = (CheckBox)findViewById(R.id.cb15);
         cb16 = (CheckBox)findViewById(R.id.cb16);
-        cb17 = (CheckBox)findViewById(R.id.cb17);
+//        cb17 = (CheckBox)findViewById(R.id.cb17);
 
         btn1 = (Button)findViewById(R.id.btn1);
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -60,7 +60,7 @@ public class List_bacteria extends AppCompatActivity {
                 String n="";
                 String o="";
                 String p="";
-                String q="";
+//                String q="";
 
                 if(cb1.isChecked()){
                     a+="Motility";
@@ -83,39 +83,40 @@ public class List_bacteria extends AppCompatActivity {
                     f+="VP";
 
                 }if(cb7.isChecked()){
-                    g+="VP";
+                    g+="Citrate";
 
                 }if(cb8.isChecked()){
-                    h+="VP";
+                    h+="Urease";
 
                 }if(cb9.isChecked()){
-                    i+="VP";
+                    i+="H2S";
 
                 }if(cb10.isChecked()){
-                    j+="VP";
+                    j+="Strach";
 
                 }if(cb11.isChecked()){
-                    k+="VP";
+                    k+="Glucose";
 
                 }if(cb12.isChecked()){
-                    l+="VP";
+                    l+="Lactose";
 
                 }if(cb13.isChecked()){
-                    m+="VP";
+                    m+="Sucrose";
 
                 }if(cb14.isChecked()){
-                    n+="VP";
+                    n+="Mannitol";
 
                 }if(cb15.isChecked()){
-                    o+="VP";
+                    o+="Obligate aerobes/Facultative anaerobes";
 
                 }if(cb16.isChecked()){
-                    p+="VP";
-
-                }if(cb17.isChecked()){
-                    q+="VP";
+                    p+="Nitrate reduction";
 
                 }
+//                if(cb17.isChecked()){
+//                    q+="Lactose";
+//
+//                }
 
                 intent.putExtra("data1", a);
                 intent.putExtra("data2", b);
@@ -126,13 +127,13 @@ public class List_bacteria extends AppCompatActivity {
                 intent.putExtra("data7", g);
                 intent.putExtra("data8", h);
                 intent.putExtra("data9", i);
-//                intent.putExtra("data10", j);
-//                intent.putExtra("data11", k);
-//                intent.putExtra("data12", l);
-//                intent.putExtra("data13", m);
-//                intent.putExtra("data14", n);
-//                intent.putExtra("data15", o);
-//                intent.putExtra("data16", p);
+                intent.putExtra("data10", j);
+                intent.putExtra("data11", k);
+                intent.putExtra("data12", l);
+                intent.putExtra("data13", m);
+                intent.putExtra("data14", n);
+                intent.putExtra("data15", o);
+                intent.putExtra("data16", p);
 //                intent.putExtra("data17", q);
                 startActivity(intent);
             }

@@ -145,13 +145,6 @@
                 android:checked="false"
                 android:text="Nitrate reduction" />
 
-            <CheckBox
-                android:id="@+id/cb17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:text="Lactose" />
-
 
         </LinearLayout>
     </ScrollView>
