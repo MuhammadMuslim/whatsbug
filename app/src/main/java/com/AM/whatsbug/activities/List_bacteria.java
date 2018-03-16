@@ -11,7 +11,7 @@ import android.widget.CheckBox;
 import com.AM.whatsbug.R;
 
 public class List_bacteria extends AppCompatActivity {
-    CheckBox cb1, cb2,cb3,cb4,cb5,cb6;
+    CheckBox cb1, cb2,cb3,cb4,cb5,cb6,cb7,cb8,cb9,cb10,cb11,cb12,cb13,cb14,cb15,cb16,cb17;
     Button btn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,17 @@ public class List_bacteria extends AppCompatActivity {
         cb4 = (CheckBox)findViewById(R.id.cb4);
         cb5 = (CheckBox)findViewById(R.id.cb5);
         cb6 = (CheckBox)findViewById(R.id.cb6);
+        cb7 = (CheckBox)findViewById(R.id.cb7);
+        cb8 = (CheckBox)findViewById(R.id.cb8);
+        cb9 = (CheckBox)findViewById(R.id.cb9);
+        cb10 = (CheckBox)findViewById(R.id.cb10);
+        cb11 = (CheckBox)findViewById(R.id.cb11);
+        cb12 = (CheckBox)findViewById(R.id.cb12);
+        cb13 = (CheckBox)findViewById(R.id.cb13);
+        cb14 = (CheckBox)findViewById(R.id.cb14);
+        cb15 = (CheckBox)findViewById(R.id.cb15);
+        cb16 = (CheckBox)findViewById(R.id.cb16);
+        cb17 = (CheckBox)findViewById(R.id.cb17);
 
         btn1 = (Button)findViewById(R.id.btn1);
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -39,6 +50,17 @@ public class List_bacteria extends AppCompatActivity {
                 String d="";
                 String e="";
                 String f="";
+                String g="";
+                String h="";
+                String i="";
+                String j="";
+                String k="";
+                String l="";
+                String m="";
+                String n="";
+                String o="";
+                String p="";
+                String q="";
 
                 if(cb1.isChecked()){
                     a+="Motility";
@@ -60,6 +82,39 @@ public class List_bacteria extends AppCompatActivity {
                 if(cb6.isChecked()){
                     f+="VP";
 
+                }if(cb7.isChecked()){
+                    g+="VP";
+
+                }if(cb8.isChecked()){
+                    h+="VP";
+
+                }if(cb9.isChecked()){
+                    i+="VP";
+
+                }if(cb10.isChecked()){
+                    j+="VP";
+
+                }if(cb11.isChecked()){
+                    k+="VP";
+
+                }if(cb12.isChecked()){
+                    l+="VP";
+
+                }if(cb13.isChecked()){
+                    m+="VP";
+
+                }if(cb14.isChecked()){
+                    n+="VP";
+
+                }if(cb15.isChecked()){
+                    o+="VP";
+
+                }if(cb16.isChecked()){
+                    p+="VP";
+
+                }if(cb17.isChecked()){
+                    q+="VP";
+
                 }
 
                 intent.putExtra("data1", a);
@@ -68,6 +123,17 @@ public class List_bacteria extends AppCompatActivity {
                 intent.putExtra("data4", d);
                 intent.putExtra("data5", e);
                 intent.putExtra("data6", f);
+                intent.putExtra("data7", g);
+                intent.putExtra("data8", h);
+                intent.putExtra("data9", i);
+//                intent.putExtra("data10", j);
+//                intent.putExtra("data11", k);
+//                intent.putExtra("data12", l);
+//                intent.putExtra("data13", m);
+//                intent.putExtra("data14", n);
+//                intent.putExtra("data15", o);
+//                intent.putExtra("data16", p);
+//                intent.putExtra("data17", q);
                 startActivity(intent);
             }
         });

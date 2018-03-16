@@ -73,13 +73,13 @@
                 android:text="VP" />
 
             <CheckBox
-                android:id="@+id/checkBox13"
+                android:id="@+id/cb7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Citrate" />
 
             <CheckBox
-                android:id="@+id/checkBox14"
+                android:id="@+id/cb8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -87,21 +87,21 @@
                 android:text="Urease" />
 
             <CheckBox
-                android:id="@+id/checkBox15"
+                android:id="@+id/cb9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:text="H2S" />
 
             <CheckBox
-                android:id="@+id/checkBox16"
+                android:id="@+id/cb10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="false"
                 android:text="Starch" />
 
             <CheckBox
-                android:id="@+id/checkBox17"
+                android:id="@+id/cb11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -109,14 +109,14 @@
                 android:text="Glucose" />
 
             <CheckBox
-                android:id="@+id/checkBox18"
+                android:id="@+id/cb12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="false"
                 android:text="Lactose" />
 
             <CheckBox
-                android:id="@+id/checkBox19"
+                android:id="@+id/cb13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -124,21 +124,21 @@
                 android:text="Sucrose" />
 
             <CheckBox
-                android:id="@+id/checkBox20"
+                android:id="@+id/cb14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:text="Mannitol" />
 
             <CheckBox
-                android:id="@+id/checkBox21"
+                android:id="@+id/cb15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="false"
                 android:text="Obligate aerobes/Facultative anaerobes" />
 
             <CheckBox
-                android:id="@+id/checkBox22"
+                android:id="@+id/cb16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -146,7 +146,7 @@
                 android:text="Nitrate reduction" />
 
             <CheckBox
-                android:id="@+id/checkBox18"
+                android:id="@+id/cb17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="false"
