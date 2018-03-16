@@ -38,31 +38,36 @@ public class List_bacteria extends AppCompatActivity {
                 String c="";
                 String d="";
                 String e="";
+                String f="";
 
                 if(cb1.isChecked()){
-                    a+="Java ";
+                    a+="Motility";
                 }
                 if(cb2.isChecked()){
-                    a+="PHP ";
+                    b+="Catalase";
 
                 }
                 if(cb3.isChecked()){
-                    b+="C++ ";
+                    c+="Oxidase";
 
                 }
                 if(cb4.isChecked()){
-                    c+="Actionscript ";
+                    d+="Indole";
                 }
                 if(cb5.isChecked()){
-                    d+="Phyton ";
+                    e+="MR";
                 }
                 if(cb6.isChecked()){
-                    e+="Javascript ";
+                    f+="VP";
 
                 }
 
                 intent.putExtra("data1", a);
                 intent.putExtra("data2", b);
+                intent.putExtra("data3", c);
+                intent.putExtra("data4", d);
+                intent.putExtra("data5", e);
+                intent.putExtra("data6", f);
                 startActivity(intent);
             }
         });
