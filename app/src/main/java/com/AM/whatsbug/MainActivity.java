@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.AM.whatsbug.activities.List_bacteria;
+import com.AM.whatsbug.activities.UsersListActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -113,6 +114,8 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent i = new Intent(MainActivity.this, UsersListActivity.class);
+            startActivity(i);
             return true;
         }
 
