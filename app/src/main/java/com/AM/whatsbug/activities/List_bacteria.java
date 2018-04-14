@@ -11,13 +11,12 @@ import android.widget.CheckBox;
 import com.AM.whatsbug.R;
 
 public class List_bacteria extends AppCompatActivity {
-    CheckBox cb1, cb2,cb3,cb4,cb5,cb6,cb7,cb8,cb9,cb10,cb11,cb12,cb13,cb14,cb15,cb16,cb17;
+    CheckBox cb1, cb2,cb3,cb4,cb5,cb6,cb7,cb8,cb9,cb10,cb11,cb12,cb13,cb14,cb15,cb16;
     Button btn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_bacteria);
-
 
         cb1 = (CheckBox)findViewById(R.id.cb1);
         cb2 = (CheckBox)findViewById(R.id.cb2);
@@ -36,6 +35,10 @@ public class List_bacteria extends AppCompatActivity {
         cb15 = (CheckBox)findViewById(R.id.cb15);
         cb16 = (CheckBox)findViewById(R.id.cb16);
 //        cb17 = (CheckBox)findViewById(R.id.cb17);
+//        cb18 = (CheckBox)findViewById(R.id.cb18);
+//        cb19 = (CheckBox)findViewById(R.id.cb19);
+//        cb20 = (CheckBox)findViewById(R.id.cb20);
+//        cb21 = (CheckBox)findViewById(R.id.cb21);
 
         btn1 = (Button)findViewById(R.id.btn1);
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -61,61 +64,124 @@ public class List_bacteria extends AppCompatActivity {
                 String o="";
                 String p="";
 //                String q="";
+//                String r="";
+//                String s="";
+//                String t="";
+//                String u="";
 
                 if(cb1.isChecked()){
-                    a+="Motility";
+                    a+="1";
+                }else{
+                    a+="0";
                 }
                 if(cb2.isChecked()){
-                    b+="Catalase";
-
+                    b+="1";
+                }else{
+                    b+="0";
                 }
                 if(cb3.isChecked()){
-                    c+="Oxidase";
-
+                    c+="1";
+                }else{
+                    c+="0";
                 }
                 if(cb4.isChecked()){
-                    d+="Indole";
+                    d+="1";
+                }else{
+                    d+="0";
                 }
                 if(cb5.isChecked()){
-                    e+="MR";
+                    e+="1";
+                }else{
+                    e+="0";
                 }
-                if(cb6.isChecked()){
-                    f+="VP";
-
-                }if(cb7.isChecked()){
-                    g+="Citrate";
-
-                }if(cb8.isChecked()){
-                    h+="Urease";
-
-                }if(cb9.isChecked()){
-                    i+="H2S";
-
-                }if(cb10.isChecked()){
-                    j+="Strach";
-
-                }if(cb11.isChecked()){
-                    k+="Glucose";
-
-                }if(cb12.isChecked()){
-                    l+="Lactose";
-
-                }if(cb13.isChecked()){
-                    m+="Sucrose";
-
-                }if(cb14.isChecked()){
-                    n+="Mannitol";
-
-                }if(cb15.isChecked()){
-                    o+="Obligate aerobes/Facultative anaerobes";
-
-                }if(cb16.isChecked()){
-                    p+="Nitrate reduction";
-
+                if(cb6.isChecked()) {
+                    f +="1";
+                }else{
+                    f+="0";
                 }
+
+                if(cb7.isChecked()){
+                    g+="1";
+                }else{
+                    g+="0";
+                }
+
+                if(cb8.isChecked()) {
+                    h +="1";
+                }else{
+                    h+="0";
+                }
+                if(cb9.isChecked()){
+                    i+="1";
+                }else{
+                    i+="0";
+                }
+                if(cb10.isChecked()){
+                    j+="1";
+                }else{
+                    j+="0";
+                }
+                if(cb11.isChecked()){
+                    k+="1";
+                }else{
+                    k+="0";
+                }
+                if(cb12.isChecked()){
+                    l+="1";
+                }else{
+                    l+="0";
+                }
+                if(cb13.isChecked()){
+                    m+="1";
+                }else{
+                    m+="0";
+                }
+                if(cb14.isChecked()) {
+                    n +="1";
+                }else{
+                    n+="0";
+                }
+
+                if(cb15.isChecked()){
+                    o+="1";
+                }else{
+                    o+="0";
+                }
+
+                if(cb16.isChecked()){
+                    p+="1";
+                }else{
+                    p+="0";
+                }
+
 //                if(cb17.isChecked()){
-//                    q+="Lactose";
+//                    q+="1";
+//                }else{
+//                    q+="0";
+//                }
 //
+//                if(cb18.isChecked()){
+//                    r+="1";
+//                }else{
+//                    r+="0";
+//                }
+//
+//                if(cb19.isChecked()){
+//                    s+="1";
+//                }else{
+//                    s+="0";
+//                }
+//
+//                if(cb20.isChecked()){
+//                    t+="1";
+//                }else{
+//                    t+="0";
+//                }
+//
+//                if(cb21.isChecked()){
+//                    u+="1";
+//                }else{
+//                    u+="0";
 //                }
 
                 intent.putExtra("data1", a);
@@ -135,6 +201,10 @@ public class List_bacteria extends AppCompatActivity {
                 intent.putExtra("data15", o);
                 intent.putExtra("data16", p);
 //                intent.putExtra("data17", q);
+//                intent.putExtra("data18", r);
+//                intent.putExtra("data19", s);
+//                intent.putExtra("data20", t);
+//                intent.putExtra("data21", u);
                 startActivity(intent);
             }
         });
