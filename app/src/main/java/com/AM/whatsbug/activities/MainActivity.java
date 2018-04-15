@@ -1,4 +1,4 @@
-package com.AM.whatsbug;
+package com.AM.whatsbug.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,8 +17,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.AM.whatsbug.activities.List_bacteria;
-import com.AM.whatsbug.activities.UsersListActivity;
+import com.AM.whatsbug.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

@@ -26,15 +26,16 @@
         <activity android:name=".activities.Check_bacteria" />
         <activity android:name=".activities.List_bacteria" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <!--<category android:name="android.intent.category." />-->
+                <!-- <category android:name="android.intent.category." /> -->
             </intent-filter>
         </activity>
+        <activity android:name=".activities.Result"></activity>
     </application>
 
 </manifest>

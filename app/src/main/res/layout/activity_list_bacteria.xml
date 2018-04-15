@@ -35,7 +35,7 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/r1"
+                android:layout_below="@+id/rg1"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
@@ -47,7 +47,7 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/r3"
+                android:layout_below="@+id/rg2"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
@@ -59,7 +59,7 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/r5"
+                android:layout_below="@+id/rg3"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
@@ -67,85 +67,85 @@
                 android:id="@+id/t5"
                 android:layout_width="59dp"
                 android:layout_height="19dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/r7"
                 android:text="TextView"
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_below="@+id/rg4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/t6"
                 android:layout_width="59dp"
                 android:layout_height="19dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/r9"
                 android:text="TextView"
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_below="@+id/rg5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/t7"
                 android:layout_width="59dp"
                 android:layout_height="19dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/r11"
                 android:text="TextView"
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_below="@+id/rg6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/t8"
                 android:layout_width="59dp"
                 android:layout_height="19dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/r13"
                 android:text="TextView"
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_below="@+id/rg7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/t9"
                 android:layout_width="59dp"
                 android:layout_height="19dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/r15"
                 android:text="TextView"
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_below="@+id/rg8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/t10"
                 android:layout_width="59dp"
                 android:layout_height="19dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/r17"
                 android:text="TextView"
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_below="@+id/rg9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/t11"
                 android:layout_width="59dp"
                 android:layout_height="19dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/r19"
                 android:text="TextView"
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_below="@+id/rg10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/t12"
@@ -155,7 +155,7 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/r21"
+                android:layout_below="@+id/rg11"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
@@ -167,10 +167,9 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/r21"
+                android:layout_below="@+id/rg12"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="51dp" />
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/t14"
@@ -180,7 +179,7 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/r25"
+                android:layout_below="@+id/rg13"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
@@ -192,7 +191,7 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/r27"
+                android:layout_below="@+id/rg14"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
@@ -204,312 +203,465 @@
                 android:textColor="@android:color/black"
                 tools:layout_editor_absoluteX="-2dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/r29"
+                android:layout_below="@+id/rg15"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
-            <RadioButton
-                android:id="@+id/r1"
-                android:layout_width="wrap_content"
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t1"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true">
+                <RadioButton
+                    android:id="@+id/r1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:layout_below="@+id/t1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
 
-            <RadioButton
-                android:id="@+id/r2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/r1"
-                android:layout_alignBottom="@+id/r1"
-                android:layout_toEndOf="@+id/r1"
-                android:layout_toRightOf="@+id/r1"
-                android:text="-" />
+                <RadioButton
+                    android:id="@+id/r2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r1"
+                    android:layout_alignBottom="@+id/r1"
+                    android:layout_toEndOf="@+id/r1"
+                    android:layout_toRightOf="@+id/r1"
+                    android:text="-" />
+            </RadioGroup>
 
-            <RadioButton
-                android:id="@+id/r3"
-                android:layout_width="wrap_content"
+            <RadioGroup
+                android:id="@+id/rg2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t2"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-"
-                android:layout_alignBaseline="@+id/r3"
-                android:layout_alignBottom="@+id/r3"
-                android:layout_toRightOf="@+id/r3"
-                android:layout_toEndOf="@+id/r3" />
+                <RadioButton
+                    android:id="@+id/r3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t2"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r5"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/rg4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r3"
+                    android:layout_alignBottom="@+id/r3"
+                    android:layout_toEndOf="@+id/r3"
+                    android:layout_toRightOf="@+id/r3"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg3"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t3"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/r5"
-                android:layout_alignBottom="@+id/r5"
-                android:layout_toEndOf="@+id/r5"
-                android:layout_toRightOf="@+id/r5"
-                android:text="-" />
+                <RadioButton
+                    android:id="@+id/rg5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t3"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r7"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/rg5"
+                    android:layout_alignBottom="@+id/rg5"
+                    android:layout_toEndOf="@+id/rg5"
+                    android:layout_toRightOf="@+id/rg5"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t4"
-                android:text="+" />
-
-            <RadioButton
-                android:id="@+id/r8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/r7"
-                android:layout_alignBottom="@+id/r7"
-                android:layout_toEndOf="@+id/r7"
-                android:layout_toRightOf="@+id/r7"
-                android:text="-" />
-
-            <RadioButton
-                android:id="@+id/r9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
+                android:layout_alignParentStart="true">
+
+                <RadioButton
+                    android:id="@+id/r7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t4"
+                    android:text="+" />
+
+                <RadioButton
+                    android:id="@+id/r8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r7"
+                    android:layout_alignBottom="@+id/r7"
+                    android:layout_toEndOf="@+id/r7"
+                    android:layout_toRightOf="@+id/r7"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t5"
-                android:text="+" />
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-"
-                android:layout_alignBaseline="@+id/r9"
-                android:layout_alignBottom="@+id/r9"
-                android:layout_toRightOf="@+id/r9"
-                android:layout_toEndOf="@+id/r9" />
+                <RadioButton
+                    android:id="@+id/r9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t5"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r11"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r9"
+                    android:layout_alignBottom="@+id/r9"
+                    android:layout_toEndOf="@+id/r9"
+                    android:layout_toRightOf="@+id/r9"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg6"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t6"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/r11"
-                android:layout_alignBottom="@+id/r11"
-                android:layout_toEndOf="@+id/r11"
-                android:layout_toRightOf="@+id/r11"
-                android:text="-" />
+                <RadioButton
+                    android:id="@+id/r11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t6"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r13"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r11"
+                    android:layout_alignBottom="@+id/r11"
+                    android:layout_toEndOf="@+id/r11"
+                    android:layout_toRightOf="@+id/r11"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg7"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t7"
-                android:text="+" />
-
-            <RadioButton
-                android:id="@+id/r14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/r13"
-                android:layout_alignBottom="@+id/r13"
-                android:layout_toEndOf="@+id/r13"
-                android:layout_toRightOf="@+id/r13"
-                android:text="-" />
-
-            <RadioButton
-                android:id="@+id/r15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/t8"
-                android:text="+" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-"
-                android:layout_below="@+id/t8"
-                android:layout_toRightOf="@+id/r15"
-                android:layout_toEndOf="@+id/r15" />
+                <RadioButton
+                    android:id="@+id/r13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t7"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r17"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r13"
+                    android:layout_alignBottom="@+id/r13"
+                    android:layout_toEndOf="@+id/r13"
+                    android:layout_toRightOf="@+id/r13"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg8"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/t8"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
+                android:layout_alignParentStart="true">
+
+                <RadioButton
+                    android:id="@+id/r15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t8"
+                    android:text="+" />
+
+                <RadioButton
+                    android:id="@+id/r16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t8"
+                    android:layout_toEndOf="@+id/r15"
+                    android:layout_toRightOf="@+id/r15"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t9"
-                android:text="+" />
-
-            <RadioButton
-                android:id="@+id/r18"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/r17"
-                android:layout_alignBottom="@+id/r17"
-                android:layout_toEndOf="@+id/r17"
-                android:layout_toRightOf="@+id/r17"
-                android:text="-" />
-
-            <RadioButton
-                android:id="@+id/r19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
+                android:layout_alignParentStart="true">
+
+                <RadioButton
+                    android:id="@+id/r17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t9"
+                    android:text="+" />
+
+                <RadioButton
+                    android:id="@+id/r18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r17"
+                    android:layout_alignBottom="@+id/r17"
+                    android:layout_toEndOf="@+id/r17"
+                    android:layout_toRightOf="@+id/r17"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t10"
-                android:text="+" />
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-"
-                android:layout_alignBaseline="@+id/r19"
-                android:layout_alignBottom="@+id/r19"
-                android:layout_toRightOf="@+id/r19"
-                android:layout_toEndOf="@+id/r19" />
+                <RadioButton
+                    android:id="@+id/r19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t10"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r21"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r19"
+                    android:layout_alignBottom="@+id/r19"
+                    android:layout_toEndOf="@+id/r19"
+                    android:layout_toRightOf="@+id/r19"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg11"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t11"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r22"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-"
-                android:layout_alignBaseline="@+id/r21"
-                android:layout_alignBottom="@+id/r21"
-                android:layout_toRightOf="@+id/r21"
-                android:layout_toEndOf="@+id/r21" />
+                <RadioButton
+                    android:id="@+id/r21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t11"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r23"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r21"
+                    android:layout_alignBottom="@+id/r21"
+                    android:layout_toEndOf="@+id/r21"
+                    android:layout_toRightOf="@+id/r21"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg12"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t12"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-"
-                android:layout_alignBaseline="@+id/r23"
-                android:layout_alignBottom="@+id/r23"
-                android:layout_toRightOf="@+id/r23"
-                android:layout_toEndOf="@+id/r23" />
+                <RadioButton
+                    android:id="@+id/r23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t12"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="+"
-                android:layout_alignBaseline="@+id/r26"
-                android:layout_alignBottom="@+id/r26"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                <RadioButton
+                    android:id="@+id/r24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r23"
+                    android:layout_alignBottom="@+id/r23"
+                    android:layout_toEndOf="@+id/r23"
+                    android:layout_toRightOf="@+id/r23"
+                    android:text="-" />
+            </RadioGroup>
 
-            <RadioButton
-                android:id="@+id/r26"
-                android:layout_width="wrap_content"
+            <RadioGroup
+                android:id="@+id/rg13"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="-"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t13"
-                android:layout_toRightOf="@+id/r25"
-                android:layout_toEndOf="@+id/r25" />
-
-            <RadioButton
-                android:id="@+id/r27"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="+"
-                android:layout_alignBaseline="@+id/r28"
-                android:layout_alignBottom="@+id/r28"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r28"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r26"
+                    android:layout_alignBottom="@+id/r26"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="+" />
+
+                <RadioButton
+                    android:id="@+id/r26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t13"
+                    android:layout_toEndOf="@+id/r25"
+                    android:layout_toRightOf="@+id/r25"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg14"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="-"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t14"
-                android:layout_toRightOf="@+id/r27"
-                android:layout_toEndOf="@+id/r27" />
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r29"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/r28"
+                    android:layout_alignBottom="@+id/r28"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="+" />
+
+                <RadioButton
+                    android:id="@+id/r28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t14"
+                    android:layout_toEndOf="@+id/r27"
+                    android:layout_toRightOf="@+id/r27"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg15"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+"
+                android:orientation="horizontal"
                 android:layout_below="@+id/t15"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r30"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-"
-                android:layout_below="@+id/t15"
-                android:layout_toRightOf="@+id/r29"
-                android:layout_toEndOf="@+id/r29" />
+                <RadioButton
+                    android:id="@+id/r29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t15"
+                    android:text="+" />
 
-            <RadioButton
-                android:id="@+id/r31"
-                android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/r30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t15"
+                    android:layout_toEndOf="@+id/r29"
+                    android:layout_toRightOf="@+id/r29"
+                    android:text="-" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+"
-                android:layout_below="@+id/r30"
+                android:orientation="horizontal"
+                android:id="@+id/rg16"
+                android:layout_below="@+id/t16"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="20dp" />
+                android:layout_alignParentStart="true">
 
-            <RadioButton
-                android:id="@+id/r32"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="-"
-                android:layout_alignBaseline="@+id/r31"
-                android:layout_alignBottom="@+id/r31"
-                android:layout_toRightOf="@+id/r31"
-                android:layout_toEndOf="@+id/r31" />
+                <RadioButton
+                    android:id="@+id/r31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="+" />
+
+                <RadioButton
+                    android:id="@+id/r32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+            </RadioGroup>
 
         </RelativeLayout>
 

@@ -11,7 +11,6 @@ import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
-import com.AM.whatsbug.MainActivity;
 import com.AM.whatsbug.R;
 import com.AM.whatsbug.helpers.InputValidation;
 import com.AM.whatsbug.sql.DatabaseHelper;

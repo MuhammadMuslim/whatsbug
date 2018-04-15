@@ -1,9 +1,12 @@
 package com.AM.whatsbug.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.AM.whatsbug.R;
@@ -35,8 +38,8 @@ public class Check_bacteria extends AppCompatActivity {
         RadioButton r1 = (RadioButton) findViewById(R.id.r1);
         RadioButton r2 = (RadioButton) findViewById(R.id.r2);
         RadioButton r3 = (RadioButton) findViewById(R.id.r3);
-        RadioButton r4 = (RadioButton) findViewById(R.id.r4);
-        RadioButton r5 = (RadioButton) findViewById(R.id.r5);
+        RadioButton r4 = (RadioButton) findViewById(R.id.rg4);
+        RadioButton r5 = (RadioButton) findViewById(R.id.rg5);
         RadioButton r6 = (RadioButton) findViewById(R.id.r6);
         RadioButton r7 = (RadioButton) findViewById(R.id.r7);
         RadioButton r8 = (RadioButton) findViewById(R.id.r8);
@@ -277,5 +280,29 @@ public class Check_bacteria extends AppCompatActivity {
             r31.setVisibility(View.GONE);
             r32.setVisibility(View.GONE);
         }
+
+        final RadioGroup rg1 = (RadioGroup) findViewById(R.id.rg1);
+        Button btcheck = (Button) findViewById(R.id.button);
+        btcheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Check_bacteria.this, Result.class);
+                startActivity(i1);
+
+                String a="cob";
+
+                int id = rg1.getCheckedRadioButtonId();
+                switch (id){
+                    case R.id.r1 :
+//                        a+="cobcob";
+                        i1.putExtra("data1", a);
+                        break;
+                    case R.id.r2 :
+//                        a+="0";
+                        i1.putExtra("data2", a);
+                        break;
+                }
+            }
+        });
     }
 }
