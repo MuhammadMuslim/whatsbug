@@ -14,654 +14,1266 @@
             android:layout_width="match_parent"
             android:layout_height="900dp">
 
-            <TextView
-                android:id="@+id/t1"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:layout_alignEnd="@+id/t3"
+            <LinearLayout
+                android:id="@+id/L1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/r1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r1a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r2a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_alignRight="@+id/t3"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp" />
+                android:layout_below="@+id/L1"
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/t2"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg1"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
 
-            <TextView
-                android:id="@+id/t3"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg2"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t4"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg3"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t5"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg4"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t6"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg5"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t7"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg6"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t8"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg7"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t9"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg8"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t10"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg9"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t11"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg10"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t12"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg11"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t13"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg12"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t14"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg13"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t15"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg14"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:id="@+id/t16"
-                android:layout_width="59dp"
-                android:layout_height="19dp"
-                android:text="TextView"
-                android:textColor="@android:color/black"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/rg15"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <RadioGroup
-                android:id="@+id/rg1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t1"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-                <RadioButton
-                    android:id="@+id/r1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="+"
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:layout_below="@+id/t1"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/r2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r1"
-                    android:layout_alignBottom="@+id/r1"
-                    android:layout_toEndOf="@+id/r1"
-                    android:layout_toRightOf="@+id/r1"
-                    android:text="-" />
-            </RadioGroup>
+                    <CheckBox
+                        android:id="@+id/r3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
 
-            <RadioGroup
-                android:id="@+id/rg2"
+                    <CheckBox
+                        android:id="@+id/r3a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t2"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/L2"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/r5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r5a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r6a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/L3"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/r7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r7a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r8a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_below="@+id/L4"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true">
 
-                <RadioButton
-                    android:id="@+id/r3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t2"
-                    android:text="+" />
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
 
-                <RadioButton
-                    android:id="@+id/rg4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r3"
-                    android:layout_alignBottom="@+id/r3"
-                    android:layout_toEndOf="@+id/r3"
-                    android:layout_toRightOf="@+id/r3"
-                    android:text="-" />
-            </RadioGroup>
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-            <RadioGroup
-                android:id="@+id/rg3"
+                    <CheckBox
+                        android:id="@+id/r9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r9a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r10a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t3"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_below="@+id/L5"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true">
 
-                <RadioButton
-                    android:id="@+id/rg5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t3"
-                    android:text="+" />
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
 
-                <RadioButton
-                    android:id="@+id/r6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/rg5"
-                    android:layout_alignBottom="@+id/rg5"
-                    android:layout_toEndOf="@+id/rg5"
-                    android:layout_toRightOf="@+id/rg5"
-                    android:text="-" />
-            </RadioGroup>
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-            <RadioGroup
-                android:id="@+id/rg4"
+                    <CheckBox
+                        android:id="@+id/r11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r11a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r12a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L7"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t4"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_below="@+id/L6"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true">
 
-                <RadioButton
-                    android:id="@+id/r7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t4"
-                    android:text="+" />
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
 
-                <RadioButton
-                    android:id="@+id/r8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r7"
-                    android:layout_alignBottom="@+id/r7"
-                    android:layout_toEndOf="@+id/r7"
-                    android:layout_toRightOf="@+id/r7"
-                    android:text="-" />
-            </RadioGroup>
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-            <RadioGroup
-                android:id="@+id/rg5"
+                    <CheckBox
+                        android:id="@+id/r13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r13a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r14a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t5"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/L7"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/r15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r15a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r16a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_below="@+id/L8"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true">
 
-                <RadioButton
-                    android:id="@+id/r9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t5"
-                    android:text="+" />
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
 
-                <RadioButton
-                    android:id="@+id/r10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r9"
-                    android:layout_alignBottom="@+id/r9"
-                    android:layout_toEndOf="@+id/r9"
-                    android:layout_toRightOf="@+id/r9"
-                    android:text="-" />
-            </RadioGroup>
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-            <RadioGroup
-                android:id="@+id/rg6"
+                    <CheckBox
+                        android:id="@+id/r17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r17a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r18a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L10"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t6"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/L9"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/r19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r19a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r20a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/L10"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/r21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r21a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r22a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/L11"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/r23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r23a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r24a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_below="@+id/L12"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true">
 
-                <RadioButton
-                    android:id="@+id/r11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <TextView
+                    android:id="@+id/t13"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t6"
-                    android:text="+" />
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
 
-                <RadioButton
-                    android:id="@+id/r12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r11"
-                    android:layout_alignBottom="@+id/r11"
-                    android:layout_toEndOf="@+id/r11"
-                    android:layout_toRightOf="@+id/r11"
-                    android:text="-" />
-            </RadioGroup>
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-            <RadioGroup
-                android:id="@+id/rg7"
+                    <CheckBox
+                        android:id="@+id/r25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r25a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r26a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L14"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t7"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_below="@+id/L13"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true">
 
-                <RadioButton
-                    android:id="@+id/r13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <TextView
+                    android:id="@+id/t14"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t7"
-                    android:text="+" />
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
 
-                <RadioButton
-                    android:id="@+id/r14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r13"
-                    android:layout_alignBottom="@+id/r13"
-                    android:layout_toEndOf="@+id/r13"
-                    android:layout_toRightOf="@+id/r13"
-                    android:text="-" />
-            </RadioGroup>
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-            <RadioGroup
-                android:id="@+id/rg8"
+                    <CheckBox
+                        android:id="@+id/r27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r27a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r28a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L15"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t8"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/L14"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t15"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/r29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <CheckBox
+                        android:id="@+id/r29a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
+
+                    <CheckBox
+                        android:id="@+id/r30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
+
+                    <CheckBox
+                        android:id="@+id/r30a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/L16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_below="@+id/L15"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true">
 
-                <RadioButton
-                    android:id="@+id/r15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <TextView
+                    android:id="@+id/t16"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_alignEnd="@+id/t3"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t8"
-                    android:text="+" />
+                    android:layout_alignRight="@+id/t3"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="16dp" />
 
-                <RadioButton
-                    android:id="@+id/r16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/t8"
-                    android:layout_toEndOf="@+id/r15"
-                    android:layout_toRightOf="@+id/r15"
-                    android:text="-" />
-            </RadioGroup>
-
-            <RadioGroup
-                android:id="@+id/rg9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t9"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-
-                <RadioButton
-                    android:id="@+id/r17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t9"
-                    android:text="+" />
+                    android:layout_below="@+id/t1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/r18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r17"
-                    android:layout_alignBottom="@+id/r17"
-                    android:layout_toEndOf="@+id/r17"
-                    android:layout_toRightOf="@+id/r17"
-                    android:text="-" />
-            </RadioGroup>
+                    <CheckBox
+                        android:id="@+id/r31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="+" />
 
-            <RadioGroup
-                android:id="@+id/rg10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t10"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
+                    <CheckBox
+                        android:id="@+id/r31a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/t1"
+                        android:layout_weight="1"
+                        android:text="[+]" />
 
-                <RadioButton
-                    android:id="@+id/r19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t10"
-                    android:text="+" />
+                    <CheckBox
+                        android:id="@+id/r32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text=" -" />
 
-                <RadioButton
-                    android:id="@+id/r20"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r19"
-                    android:layout_alignBottom="@+id/r19"
-                    android:layout_toEndOf="@+id/r19"
-                    android:layout_toRightOf="@+id/r19"
-                    android:text="-" />
-            </RadioGroup>
+                    <CheckBox
+                        android:id="@+id/r32a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/r1"
+                        android:layout_alignBottom="@+id/r1"
+                        android:layout_toEndOf="@+id/r1"
+                        android:layout_toRightOf="@+id/r1"
+                        android:layout_weight="1"
+                        android:text="d" />
+                </LinearLayout>
 
-            <RadioGroup
-                android:id="@+id/rg11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t11"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-
-                <RadioButton
-                    android:id="@+id/r21"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t11"
-                    android:text="+" />
-
-                <RadioButton
-                    android:id="@+id/r22"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r21"
-                    android:layout_alignBottom="@+id/r21"
-                    android:layout_toEndOf="@+id/r21"
-                    android:layout_toRightOf="@+id/r21"
-                    android:text="-" />
-            </RadioGroup>
-
-            <RadioGroup
-                android:id="@+id/rg12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t12"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-
-                <RadioButton
-                    android:id="@+id/r23"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t12"
-                    android:text="+" />
-
-                <RadioButton
-                    android:id="@+id/r24"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r23"
-                    android:layout_alignBottom="@+id/r23"
-                    android:layout_toEndOf="@+id/r23"
-                    android:layout_toRightOf="@+id/r23"
-                    android:text="-" />
-            </RadioGroup>
-
-            <RadioGroup
-                android:id="@+id/rg13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t13"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-
-                <RadioButton
-                    android:id="@+id/r25"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r26"
-                    android:layout_alignBottom="@+id/r26"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:text="+" />
-
-                <RadioButton
-                    android:id="@+id/r26"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/t13"
-                    android:layout_toEndOf="@+id/r25"
-                    android:layout_toRightOf="@+id/r25"
-                    android:text="-" />
-            </RadioGroup>
-
-            <RadioGroup
-                android:id="@+id/rg14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t14"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-
-                <RadioButton
-                    android:id="@+id/r27"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/r28"
-                    android:layout_alignBottom="@+id/r28"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:text="+" />
-
-                <RadioButton
-                    android:id="@+id/r28"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/t14"
-                    android:layout_toEndOf="@+id/r27"
-                    android:layout_toRightOf="@+id/r27"
-                    android:text="-" />
-            </RadioGroup>
-
-            <RadioGroup
-                android:id="@+id/rg15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@+id/t15"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-
-                <RadioButton
-                    android:id="@+id/r29"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/t15"
-                    android:text="+" />
-
-                <RadioButton
-                    android:id="@+id/r30"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/t15"
-                    android:layout_toEndOf="@+id/r29"
-                    android:layout_toRightOf="@+id/r29"
-                    android:text="-" />
-            </RadioGroup>
-
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:id="@+id/rg16"
-                android:layout_below="@+id/t16"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-
-                <RadioButton
-                    android:id="@+id/r31"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:text="+" />
-
-                <RadioButton
-                    android:id="@+id/r32"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-" />
-            </RadioGroup>
+            </LinearLayout>
 
         </RelativeLayout>
 
@@ -670,23 +1282,262 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="13dp">
+        android:id="@+id/relativeLayout3"
+        android:layout_alignParentBottom="true">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginEnd="22dp"
-            android:layout_marginRight="22dp"
-            android:background="#FF008080"
-            android:text="Check"
-            android:textColor="@android:color/background_light"
-            android:textSize="14sp" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/relativeLayout3"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:text="Result"
+                        android:textColor="#FF008080" />
+
+                    <ToggleButton
+                        android:id="@+id/btshow"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="0.08"
+                        android:background="@android:color/transparent"
+                        android:textOff="hide"
+                        android:textOn="show"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/ish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/hide" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/trs1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/trs1"
+                        android:layout_toRightOf="@+id/trs1"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/trs2"
+                        android:layout_toRightOf="@+id/trs2"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/trs1"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/trs1"
+                        android:layout_toEndOf="@+id/trs4"
+                        android:layout_toRightOf="@+id/trs4"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/trs1"
+                        android:layout_toEndOf="@+id/trs5"
+                        android:layout_toRightOf="@+id/trs5"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trs15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/cardview_light_background"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="22dp"
+                android:layout_marginRight="22dp"
+                android:background="#FF008080"
+                android:text="Check"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
     </RelativeLayout>
 
 </RelativeLayout>

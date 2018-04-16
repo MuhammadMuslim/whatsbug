@@ -1,12 +1,15 @@
 package com.AM.whatsbug.activities;
 
+import android.app.Dialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import com.AM.whatsbug.R;
 
@@ -17,7 +20,72 @@ public class Check_bacteria extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_bacteria);
 
-        final TextView tresult = (TextView) findViewById(R.id.tresult);
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /**
+                 * Initiate Custom Dialog
+                 */
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+
+                /**
+                 * Mengeset komponen dari custom dialog
+                 */
+                TextView text = (TextView) dialog.findViewById(R.id.tv_desc);
+                text.setText("TWOH's Engineering custom dialog sample");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                /**
+                 * Jika tombol diklik, tutup dialog
+                 */
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+
         TextView t1 = (TextView) findViewById(R.id.t1);
         TextView t2 = (TextView) findViewById(R.id.t2);
         TextView t3 = (TextView) findViewById(R.id.t3);
@@ -161,6 +229,7 @@ public class Check_bacteria extends AppCompatActivity {
             r1a.setVisibility(View.VISIBLE);
             r2.setVisibility(View.VISIBLE);
             r2a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n1==0){
             t1.setVisibility(View.GONE);
             r1.setVisibility(View.GONE);
@@ -175,6 +244,7 @@ public class Check_bacteria extends AppCompatActivity {
             r3a.setVisibility(View.VISIBLE);
             r4.setVisibility(View.VISIBLE);
             r4a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n2==0){
             t2.setVisibility(View.GONE);
             r3.setVisibility(View.GONE);
@@ -189,6 +259,7 @@ public class Check_bacteria extends AppCompatActivity {
             r5a.setVisibility(View.VISIBLE);
             r6.setVisibility(View.VISIBLE);
             r6a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n3==0){
             t3.setVisibility(View.GONE);
             r5.setVisibility(View.GONE);
@@ -203,6 +274,7 @@ public class Check_bacteria extends AppCompatActivity {
             r7a.setVisibility(View.VISIBLE);
             r8.setVisibility(View.VISIBLE);
             r8a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n4==0){
             t4.setVisibility(View.GONE);
             r7.setVisibility(View.GONE);
@@ -217,6 +289,7 @@ public class Check_bacteria extends AppCompatActivity {
             r9a.setVisibility(View.VISIBLE);
             r10.setVisibility(View.VISIBLE);
             r10a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n5==0){
             t5.setVisibility(View.GONE);
             r9.setVisibility(View.GONE);
@@ -231,6 +304,7 @@ public class Check_bacteria extends AppCompatActivity {
             r11a.setVisibility(View.VISIBLE);
             r12.setVisibility(View.VISIBLE);
             r12a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n6==0){
             t6.setVisibility(View.GONE);
             r11.setVisibility(View.GONE);
@@ -245,6 +319,7 @@ public class Check_bacteria extends AppCompatActivity {
             r13a.setVisibility(View.VISIBLE);
             r14.setVisibility(View.VISIBLE);
             r14a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n7==0){
             t7.setVisibility(View.GONE);
             r13.setVisibility(View.GONE);
@@ -259,6 +334,7 @@ public class Check_bacteria extends AppCompatActivity {
             r15a.setVisibility(View.VISIBLE);
             r16.setVisibility(View.VISIBLE);
             r16a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n8==0){
             t8.setVisibility(View.GONE);
             r15.setVisibility(View.GONE);
@@ -273,6 +349,7 @@ public class Check_bacteria extends AppCompatActivity {
             r17a.setVisibility(View.VISIBLE);
             r18.setVisibility(View.VISIBLE);
             r18a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n9==0){
             t9.setVisibility(View.GONE);
             r17.setVisibility(View.GONE);
@@ -287,6 +364,7 @@ public class Check_bacteria extends AppCompatActivity {
             r19a.setVisibility(View.VISIBLE);
             r20.setVisibility(View.VISIBLE);
             r20a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n10==0){
             t10.setVisibility(View.GONE);
             r19.setVisibility(View.GONE);
@@ -301,6 +379,7 @@ public class Check_bacteria extends AppCompatActivity {
             r21a.setVisibility(View.VISIBLE);
             r22.setVisibility(View.VISIBLE);
             r22a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n11==0){
             t11.setVisibility(View.GONE);
             r21.setVisibility(View.GONE);
@@ -315,6 +394,7 @@ public class Check_bacteria extends AppCompatActivity {
             r23a.setVisibility(View.VISIBLE);
             r24.setVisibility(View.VISIBLE);
             r24a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n12==0){
             t12.setVisibility(View.GONE);
             r23.setVisibility(View.GONE);
@@ -329,6 +409,7 @@ public class Check_bacteria extends AppCompatActivity {
             r25a.setVisibility(View.VISIBLE);
             r26.setVisibility(View.VISIBLE);
             r26a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n13==0){
             t13.setVisibility(View.GONE);
             r25.setVisibility(View.GONE);
@@ -343,6 +424,7 @@ public class Check_bacteria extends AppCompatActivity {
             r27a.setVisibility(View.VISIBLE);
             r28.setVisibility(View.VISIBLE);
             r28a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n14==0){
             t14.setVisibility(View.GONE);
             r27.setVisibility(View.GONE);
@@ -357,6 +439,7 @@ public class Check_bacteria extends AppCompatActivity {
             r29a.setVisibility(View.VISIBLE);
             r30.setVisibility(View.VISIBLE);
             r30a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n15==0){
             t15.setVisibility(View.GONE);
             r29.setVisibility(View.GONE);
@@ -371,6 +454,7 @@ public class Check_bacteria extends AppCompatActivity {
             r31a.setVisibility(View.VISIBLE);
             r32.setVisibility(View.VISIBLE);
             r32a.setVisibility(View.VISIBLE);
+            hide();
         }else if(n16==0){
             t16.setVisibility(View.GONE);
             r31.setVisibility(View.GONE);
@@ -379,146 +463,363 @@ public class Check_bacteria extends AppCompatActivity {
             r32a.setVisibility(View.GONE);
         }
 
-        Button btcheck = (Button) findViewById(R.id.button);
+
+
+        final Button btcheck = (Button) findViewById(R.id.button);
         btcheck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                show();
                 if(r1.isChecked()) {
                     Toast.makeText(Check_bacteria.this,
                             r1.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Aeromonas hydrophila,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Salmonella typhimurium");
+                    showr1();
                 }if(r1a.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r1a.getText(), Toast.LENGTH_SHORT).show();
-                        tresult.setText("Aeromonas hydrophila,Alcaligenes faecalis,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli, Proteus mirabilis, Proteus vulgaris, Pseudomonas aeruginosa, Pseudomonas fluorescens, Serratia marcescens,Salmonella typhimurium");
+                    showr1a();
                 }if(r2.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r2.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                }if(r3.isChecked()){
+                    trs1.setText(bacteri7);
+                }if(r2a.isChecked()){
                 Toast.makeText(Check_bacteria.this,
-                        r3.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Aeromonas hydrophila,Alcaligenes faecalis,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Klebsiella pneumoniae,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Shigella flexneri,Shigella dysentriae,Salmonella typhimurium");
+                        r2a.getText(), Toast.LENGTH_SHORT).show();
+                    trs1.setText(" ");
+                }if(r3.isChecked()){
+                    Toast.makeText(Check_bacteria.this,
+                            r3.getText(), Toast.LENGTH_SHORT).show();
+                    trs1.setText(bacteri1);
+                    trs2.setText(bacteri2);
+                    trs3.setText(bacteri3);
+                    trs4.setText(bacteri4);
+                    trs5.setText(bacteri5);
+                    trs6.setText(bacteri6);
+                    trs7.setText(bacteri7);
+                    trs8.setText(bacteri8);
+                    trs9.setText(bacteri9);
+                    trs10.setText(bacteri10);
+                    trs11.setText(bacteri11);
+                    trs12.setText(bacteri12);
+                    trs13.setText(bacteri13);
+                    trs14.setText(bacteri14);
+                    trs15.setText(bacteri15);
+                }if(r3a.isChecked()){
+                    Toast.makeText(Check_bacteria.this,
+                            r3a.getText(), Toast.LENGTH_SHORT).show();
+                    trs1.setText(" ");
                 }if(r4.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r4.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText(" ");
+                    trs1.setText(" ");
+                }if(r4a.isChecked()){
+                    Toast.makeText(Check_bacteria.this,
+                            r4a.getText(), Toast.LENGTH_SHORT).show();
+                    trs1.setText(" ");
                 }if(r5.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r5.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Aeromonas hydrophila,Alcaligenes faecalis,Pseudomonas aeruginosa,Pseudomonas fluorescens");
-                }if(r6.isChecked()){
-                    Toast.makeText(Check_bacteria.this,
-                            r6.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Klebsiella pneumoniae,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Serratia marcescens,Shigella flexneri,Shigella dysentriae,Salmonella typhimurium");
-                }if(r7.isChecked()){
-                    Toast.makeText(Check_bacteria.this,
-                            r7.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Aeromonas hydrophila,Escherichia coli,Proteus vulgaris,Shigella flexneri");
-                }if(r8.isChecked()){
-                    Toast.makeText(Check_bacteria.this,
-                            r8.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Alcaligenes faecalis,Enterobacter aerogenes,Enterobacter cloacae,Klebsiella pneumoniae,Proteus mirabilis,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Shigella dysentriae,Salmonella typhimurium");
+                    trs1.setText(bacteri1);
+                    trs2.setText(bacteri2);
+                    trs3.setText(bacteri10);
+                    trs4.setText(bacteri11);
                 }if(r9.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r9.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Aeromonas hydrophila,Alcaligenes faecalis,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Klebsiella pneumoniae,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Shigella flexneri,Shigella dysentriae,Salmonella typhimurium");
+                    trs1.setText("Aeromonas hydrophila,Alcaligenes faecalis,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Klebsiella pneumoniae,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Shigella flexneri,Shigella dysentriae,Salmonella typhimurium");
                 }if(r10.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r10.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Alcaligenes faecalis,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Klebsiella pneumoniae,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Shigella flexneri,Shigella dysentriae,Salmonella typhimurium");
+                    trs1.setText("Alcaligenes faecalis,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Klebsiella pneumoniae,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Shigella flexneri,Shigella dysentriae,Salmonella typhimurium");
                 //blm
                 }if(r11.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r11.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r12.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r12.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r13.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r13.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r14.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r14.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r15.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r15.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r16.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r16.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r17.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r17.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r18.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r18.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r19.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r19.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r20.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r20.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r21.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r21.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r22.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r22.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r23.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r23.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r24.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r24.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r25.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r25.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r26.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r26.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r27.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r27.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r28.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r28.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r29.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r29.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r30.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r30.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r31.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r31.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }if(r32.isChecked()){
                     Toast.makeText(Check_bacteria.this,
                             r32.getText(), Toast.LENGTH_SHORT).show();
-                    tresult.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                    trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
                 }
 
             }
         });
+
+        //inisialisasi 3 View
+
+        final ImageView ish = (ImageView) findViewById(R.id.ish);
+        final ToggleButton btshow = (ToggleButton) findViewById(R.id.btshow);
+        btshow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                boolean checked = btshow.isChecked();
+
+                if (checked) {
+                    if(r1.isChecked()) {
+                        show();
+                        showr1();
+                    }else if(r1a.isChecked()) {
+                        show();
+                        showr1a();
+                    }
+                    ish.setImageResource(R.drawable.show);
+                } else {
+                   hide();
+                    ish.setImageResource(R.drawable.hide);
+                }
+
+
+            }
+        });
+
     }
+
+    public void showr1(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setText(bacteri3);
+        trs4.setText(bacteri4);
+        trs5.setText(bacteri5);
+        trs6.setText(bacteri6);
+        trs7.setVisibility(View.GONE);
+        trs8.setText(bacteri8);
+        trs9.setText(bacteri9);
+        trs10.setText(bacteri10);
+        trs11.setText(bacteri11);
+        trs12.setText(bacteri12);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr1a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void hide(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void show (){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+        trs1.setVisibility(View.VISIBLE);
+        trs2.setVisibility(View.VISIBLE);
+        trs3.setVisibility(View.VISIBLE);
+        trs4.setVisibility(View.VISIBLE);
+        trs5.setVisibility(View.VISIBLE);
+        trs6.setVisibility(View.VISIBLE);
+        trs7.setVisibility(View.VISIBLE);
+        trs8.setVisibility(View.VISIBLE);
+        trs9.setVisibility(View.VISIBLE);
+        trs10.setVisibility(View.VISIBLE);
+        trs11.setVisibility(View.VISIBLE);
+        trs12.setVisibility(View.VISIBLE);
+        trs13.setVisibility(View.VISIBLE);
+        trs14.setVisibility(View.VISIBLE);
+        trs15.setVisibility(View.VISIBLE);
+    }
+
 }
