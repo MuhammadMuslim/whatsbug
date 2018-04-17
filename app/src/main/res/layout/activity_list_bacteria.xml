@@ -1314,7 +1314,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_below="@+id/t1"
                         android:layout_weight="1"
-                        android:text="+" />
+                        android:text="FA" />
 
                     <CheckBox
                         android:id="@+id/r29a"
@@ -1324,7 +1324,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_below="@+id/t1"
                         android:layout_weight="1"
-                        android:text="[+]" />
+                        android:text="OA" />
 
                     <CheckBox
                         android:id="@+id/r30"
@@ -1335,7 +1335,7 @@
                         android:layout_toEndOf="@+id/r1"
                         android:layout_toRightOf="@+id/r1"
                         android:layout_weight="1"
-                        android:text=" -" />
+                        android:text="+" />
 
                     <CheckBox
                         android:id="@+id/r30b"
@@ -1346,7 +1346,7 @@
                         android:layout_toEndOf="@+id/r1"
                         android:layout_toRightOf="@+id/r1"
                         android:layout_weight="1"
-                        android:text="[-]" />
+                        android:text="-" />
 
                     <CheckBox
                         android:id="@+id/r30a"
@@ -1530,7 +1530,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs2"
@@ -1542,7 +1542,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs3"
@@ -1554,7 +1554,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs4"
@@ -1566,7 +1566,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs5"
@@ -1578,7 +1578,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs6"
@@ -1590,7 +1590,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs7"
@@ -1599,7 +1599,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs8"
@@ -1608,7 +1608,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs9"
@@ -1617,7 +1617,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs10"
@@ -1626,7 +1626,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs11"
@@ -1635,7 +1635,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs12"
@@ -1644,7 +1644,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs13"
@@ -1653,7 +1653,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs14"
@@ -1662,7 +1662,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/trs15"
@@ -1671,7 +1671,7 @@
                         android:layout_weight="1"
                         android:background="@color/cardview_light_background"
                         android:textColor="@color/cardview_dark_background"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <LinearLayout

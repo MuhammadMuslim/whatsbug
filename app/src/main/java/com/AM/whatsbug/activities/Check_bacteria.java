@@ -55,25 +55,23 @@ public class Check_bacteria extends AppCompatActivity {
         trs1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /**
-                 * Initiate Custom Dialog
-                 */
                 final Dialog dialog = new Dialog(Check_bacteria.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
-
-                /**
-                 * Mengeset komponen dari custom dialog
-                 */
-                TextView text = (TextView) dialog.findViewById(R.id.tv_desc);
-                text.setText("TWOH's Engineering custom dialog sample");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri1);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
 
                 Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
-                /**
-                 * Jika tombol diklik, tutup dialog
-                 */
                 dialogButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -85,6 +83,439 @@ public class Check_bacteria extends AppCompatActivity {
             }
         });
 
+        trs2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri2);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri3);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri4);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri5);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri6);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri7);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri8);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri9);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri10);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText("blue/green");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri11);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText("yellow");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri12);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText("reddish orange");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri13);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri14);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+
+        trs15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(Check_bacteria.this);
+                dialog.setContentView(R.layout.popup);
+                dialog.setTitle("Detail");
+                TextView tnm = (TextView) dialog.findViewById(R.id.nm);
+                TextView tgr = (TextView) dialog.findViewById(R.id.gr);
+                TextView tmorp = (TextView) dialog.findViewById(R.id.morp);
+                TextView tarr = (TextView) dialog.findViewById(R.id.arr);
+                TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
+                tnm.setText(bacteri15);
+                tgr.setText("Negative");
+                tmorp.setText("Rod");
+                tarr.setText("single");
+                tpigm.setText(" ");
+                ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
+                image.setImageResource(R.mipmap.ic_launcher);
+
+                Button dialogButton = (Button) dialog.findViewById(R.id.bt_ok);
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
 
         TextView t1 = (TextView) findViewById(R.id.t1);
         TextView t2 = (TextView) findViewById(R.id.t2);
@@ -204,7 +635,7 @@ public class Check_bacteria extends AppCompatActivity {
         t16.setText(getIntent().getStringExtra("data16"));
 
 //        t17.setText(getIntent().getStringExtra("data17"));
-        String s1 = t1.getText().toString();
+        final String s1 = t1.getText().toString();
         String s2 = t2.getText().toString();
         String s3 = t3.getText().toString();
         String s4 = t4.getText().toString();
@@ -603,115 +1034,344 @@ public class Check_bacteria extends AppCompatActivity {
                         Toast.makeText(Check_bacteria.this,
                                 r7a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr5();
+                        showr7a();
                     }if(r8.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r8.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr5();
+                        showr8();
                     }if(r8a.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r8a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr5();
+                        showr8a();
+                    }if(r8b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r8b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr8b();
                     }
                     if(r9.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r9.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Aeromonas hydrophila,Alcaligenes faecalis,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Klebsiella pneumoniae,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Shigella flexneri,Shigella dysentriae,Salmonella typhimurium");
+                        show();
+                        showr9();
+                    }if(r9a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r9a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr9a();
                     }if(r10.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r10.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Alcaligenes faecalis,Citrobacter freundii,Enterobacter aerogenes,Enterobacter cloacae,Escherichia coli,Klebsiella pneumoniae,Proteus mirabilis,Proteus vulgaris,Pseudomonas aeruginosa,Pseudomonas fluorescens,Serratia marcescens,Shigella flexneri,Shigella dysentriae,Salmonella typhimurium");
-                        //blm
-                    }if(r11.isChecked()){
+                        show();
+                        showr10();
+                    }if(r10a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r10a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr10a();
+                    }if(r10b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r10b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr10b();
+                    }
+                    if(r11.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r11.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r12.isChecked()){
+                        show();
+                        showr11();
+                    }if(r11a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r11a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr11a();
+                    }
+                    if(r12.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r12.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r13.isChecked()){
+                        show();
+                        showr12();
+                    }if(r12a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r12a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr12a();
+                    }if(r12b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r12b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr12b();
+                    }
+                    if(r13.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r13.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r14.isChecked()){
+                        show();
+                        showr13();
+                    }if(r13a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r13a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr13a();
+                    }
+                    if(r14.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r14.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r15.isChecked()){
+                        show();
+                        showr14();
+                    }if(r14a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r14a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr14a();
+                    }if(r14b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r14b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr14b();
+                    }
+                    if(r15.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r15.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r16.isChecked()){
+                        show();
+                        showr15();
+                    }if(r15a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r15a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr15a();
+                    }
+                    if(r16.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r16.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r17.isChecked()){
+                        show();
+                        showr16();
+                    }if(r16a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r16a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr16a();
+                    }if(r16b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r16b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr16b();
+                    }
+                    if(r17.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r17.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r18.isChecked()){
+                        show();
+                        showr17();
+                    }if(r17a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r17a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr17a();
+                    }
+                    if(r18.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r18.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r19.isChecked()){
+                        show();
+                        showr18a();
+                    }if(r18a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r18a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr18a();
+                    }if(r18b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r18b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr18b();
+                    }
+                    if(r19.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r19.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r20.isChecked()){
+                        show();
+                        showr19();
+                    }if(r19a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r19a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr19a();
+                    }
+                    if(r20.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r20.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r21.isChecked()){
+                        show();
+                        showr20();
+                    }if(r20a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r20a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr20a();
+                    }if(r20b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r20b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr20b();
+                    }
+                    if(r21.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r21.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                        show();
+                        showr21();
+                    }if(r21a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r21a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr21a();
                     }if(r22.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r22.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r23.isChecked()){
+                        show();
+                        showr22();
+                    }if(r22a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r22a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr22a();
+                    }if(r22b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r22b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr22b();
+                    }
+                    if(r23.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r23.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r24.isChecked()){
+                        show();
+                        showr23();
+                    }if(r23a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r23a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr23a();
+                    }
+                    if(r24.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r24.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r25.isChecked()){
+                        show();
+                        showr24();
+                    }if(r24a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r24a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr24a();
+                    }if(r24b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r24b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr24b();
+                    }
+                    if(r25.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r25.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r26.isChecked()){
+                        show();
+                        showr25();
+                    }if(r25a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r25a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr25a();
+                    }
+                    if(r26.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r26.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r27.isChecked()){
+                        show();
+                        showr26();
+                    }if(r26a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r26a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr26a();
+                    }if(r26b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r26b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr26b();
+                    }
+                    if(r27.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r27.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r28.isChecked()){
+                        show();
+                        showr27();
+                    }if(r27a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r27a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr27a();
+                    }
+                    if(r28.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r28.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r29.isChecked()){
+                        show();
+                        showr28();
+                    }if(r28a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r28a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr28a();
+                    }if(r28b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r28b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr28b();
+                    }
+                    if(r29.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r29.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r30.isChecked()){
+                        show();
+                        showr29();
+                    }if(r29a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r29a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr29a();
+                    }
+                    if(r30.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r30.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r31.isChecked()){
+                        show();
+                        showr30();
+                    }if(r30a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r30a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr30a();
+                    }if(r30b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r30b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr30b();
+                    }
+                    if(r31.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r31.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
-                    }if(r32.isChecked()){
+                        show();
+                        showr31();
+                    }if(r31a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r31a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr31a();
+                    }
+                    if(r32.isChecked()){
                         Toast.makeText(Check_bacteria.this,
                                 r32.getText(), Toast.LENGTH_SHORT).show();
-                        trs1.setText("Klebsiella pneumoniae,Shigella flexneri,Shigella dysentriae");
+                        show();
+                        showr32();
+                    }if(r32a.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r32a.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr32a();
+                    }if(r32b.isChecked()){
+                        Toast.makeText(Check_bacteria.this,
+                                r32b.getText(), Toast.LENGTH_SHORT).show();
+                        show();
+                        showr32b();
                     }
                 }else {
                     hide();
@@ -743,7 +1403,11 @@ public class Check_bacteria extends AppCompatActivity {
                     }else if(r2a.isChecked()) {
                         show();
                         showr2a();
-                    }else if(r3.isChecked()) {
+                    }else if(r2b.isChecked()) {
+                        show();
+                        showr2b();
+                    }
+                    else if(r3.isChecked()) {
                         show();
                         showr3();
                     }else if(r3a.isChecked()) {
@@ -755,7 +1419,11 @@ public class Check_bacteria extends AppCompatActivity {
                     }else if(r4a.isChecked()) {
                         show();
                         showr4a();
-                    }else if(r5.isChecked()) {
+                    }else if(r4b.isChecked()) {
+                        show();
+                        showr2b();
+                    }
+                    else if(r5.isChecked()) {
                         show();
                         showr5();
                     }else if(r5a.isChecked()) {
@@ -767,9 +1435,218 @@ public class Check_bacteria extends AppCompatActivity {
                     }else if(r6a.isChecked()) {
                         show();
                         showr6a();
-                    }else if(r7.isChecked()) {
+                    }else if(r6b.isChecked()) {
+                        show();
+                        showr2b();
+                    }
+                    else if(r7.isChecked()) {
                         show();
                         showr7();
+                    }else if(r7a.isChecked()) {
+                        show();
+                        showr7a();
+                    }else if(r8.isChecked()) {
+                        show();
+                        showr8();
+                    }else if(r8a.isChecked()) {
+                        show();
+                        showr8a();
+                    }else if(r8b.isChecked()) {
+                        show();
+                        showr8b();
+                    }else if(r9.isChecked()) {
+                        show();
+                        showr9();
+                    }else if(r9a.isChecked()) {
+                        show();
+                        showr9a();
+                    }
+                    else if(r10.isChecked()) {
+                        show();
+                        showr10();
+                    }else if(r10a.isChecked()) {
+                        show();
+                        showr10a();
+                    }else if(r10b.isChecked()) {
+                        show();
+                        showr10b();
+                    }
+                    else if(r11.isChecked()) {
+                        show();
+                        showr11();
+                    }else if(r11a.isChecked()) {
+                        show();
+                        showr11a();
+                    }else if(r12.isChecked()) {
+                        show();
+                        showr12();
+                    }else if(r12a.isChecked()) {
+                        show();
+                        showr12a();
+                    }
+                    else if(r12b.isChecked()) {
+                        show();
+                        showr12b();
+                    }
+                    else if(r13.isChecked()) {
+                        show();
+                        showr13();
+                    }else if(r13a.isChecked()) {
+                        show();
+                        showr13a();
+                    }else if(r14.isChecked()) {
+                        show();
+                        showr14();
+                    }else if(r14a.isChecked()) {
+                        show();
+                        showr14a();
+                    }else if(r14b.isChecked()) {
+                        show();
+                        showr14b();
+                    }
+                    else if(r15.isChecked()) {
+                        show();
+                        showr15();
+                    }else if(r15a.isChecked()) {
+                        show();
+                        showr15a();
+                    }else if(r16.isChecked()) {
+                        show();
+                        showr16();
+                    }else if(r16a.isChecked()) {
+                        show();
+                        showr16a();
+                    }else if(r16b.isChecked()) {
+                        show();
+                        showr16b();
+                    }if(r17.isChecked()) {
+                        show();
+                        showr17();
+                    }else if(r17a.isChecked()) {
+                        show();
+                        showr17a();
+                    }else if(r18.isChecked()) {
+                        show();
+                        showr18();
+                    }else if(r18a.isChecked()) {
+                        show();
+                        showr18a();
+                    }else if(r18b.isChecked()) {
+                        show();
+                        showr18b();
+                    }
+                    else if(r19.isChecked()) {
+                        show();
+                        showr19();
+                    }else if(r19a.isChecked()) {
+                        show();
+                        showr19a();
+                    }else if(r20.isChecked()) {
+                        show();
+                        showr20();
+                    }else if(r20a.isChecked()) {
+                        show();
+                        showr20a();
+                    }else if(r20b.isChecked()) {
+                        show();
+                        showr20b();
+                    }
+                    else if(r21.isChecked()) {
+                        show();
+                        showr21();
+                    }else if(r21a.isChecked()) {
+                        show();
+                        showr21a();
+                    }else if(r22.isChecked()) {
+                        show();
+                        showr22();
+                    }else if(r22a.isChecked()) {
+                        show();
+                        showr22a();
+                    }else if(r22b.isChecked()) {
+                        show();
+                        showr22b();
+                    }
+                    else if(r23.isChecked()) {
+                        show();
+                        showr23();
+                    }else if(r23a.isChecked()) {
+                        show();
+                        showr23a();
+                    }else if(r24.isChecked()) {
+                        show();
+                        showr24();
+                    }else if(r24a.isChecked()) {
+                        show();
+                        showr24a();
+                    }else if(r24b.isChecked()) {
+                        show();
+                        showr24b();
+                    }else if(r25.isChecked()) {
+                        show();
+                        showr25();
+                    }else if(r25a.isChecked()) {
+                        show();
+                        showr25a();
+                    }
+                    else if(r26.isChecked()) {
+                        show();
+                        showr26();
+                    }else if(r26a.isChecked()) {
+                        show();
+                        showr26a();
+                    }else if(r26b.isChecked()) {
+                        show();
+                        showr26b();
+                    }
+                    else if(r27.isChecked()) {
+                        show();
+                        showr27();
+                    }else if(r27a.isChecked()) {
+                        show();
+                        showr27a();
+                    }else if(r28.isChecked()) {
+                        show();
+                        showr28();
+                    }else if(r28a.isChecked()) {
+                        show();
+                        showr28a();
+                    }
+                    else if(r28b.isChecked()) {
+                        show();
+                        showr28b();
+                    }
+                    else if(r29.isChecked()) {
+                        show();
+                        showr29();
+                    }else if(r29a.isChecked()) {
+                        show();
+                        showr29a();
+                    }else if(r30.isChecked()) {
+                        show();
+                        showr30();
+                    }else if(r30a.isChecked()) {
+                        show();
+                        showr30a();
+                    }else if(r30b.isChecked()) {
+                        show();
+                        showr30b();
+                    }
+                    else if(r31.isChecked()) {
+                        show();
+                        showr31();
+                    }else if(r31a.isChecked()) {
+                        show();
+                        showr31a();
+                    }else if(r32.isChecked()) {
+                        show();
+                        showr32();
+                    }else if(r32a.isChecked()) {
+                        show();
+                        showr32a();
+                    }else if(r32b.isChecked()) {
+                        show();
+                        showr32b();
                     }
                     ish.setImageResource(R.drawable.show);
                 } else {
@@ -2333,7 +3210,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs15.setVisibility(View.GONE);
     }
 
-    public void show14(){
+    public void showr14(){
         final TextView trs1 = (TextView) findViewById(R.id.trs1);
         final TextView trs2 = (TextView) findViewById(R.id.trs2);
         final TextView trs3 = (TextView) findViewById(R.id.trs3);
@@ -2383,7 +3260,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs15.setVisibility(View.GONE);
     }
 
-    public void show14a(){
+    public void showr14a(){
         final TextView trs1 = (TextView) findViewById(R.id.trs1);
         final TextView trs2 = (TextView) findViewById(R.id.trs2);
         final TextView trs3 = (TextView) findViewById(R.id.trs3);
@@ -2684,131 +3561,2003 @@ public class Check_bacteria extends AppCompatActivity {
     }
 
     public void showr17(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setText(bacteri3);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setText(bacteri8);
+        trs9.setText(bacteri9);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setText(bacteri15);
     }
 
     public void showr17a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr18(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setVisibility(View.GONE);
+        trs4.setText(bacteri4);
+        trs5.setText(bacteri5);
+        trs6.setText(bacteri6);
+        trs7.setText(bacteri7);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setText(bacteri10);
+        trs11.setText(bacteri11);
+        trs12.setText(bacteri12);
+        trs13.setText(bacteri13);
+        trs14.setText(bacteri14);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr18a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr18b(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr19(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setText(bacteri7);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr19a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr20(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setText(bacteri3);
+        trs4.setVisibility(View.GONE);
+        trs5.setText(bacteri5);
+        trs6.setText(bacteri6);
+        trs7.setVisibility(View.GONE);
+        trs8.setText(bacteri8);
+        trs9.setText(bacteri9);
+        trs10.setText(bacteri10);
+        trs11.setText(bacteri11);
+        trs12.setText(bacteri12);
+        trs13.setText(bacteri13);
+        trs14.setText(bacteri14);
+        trs15.setText(bacteri15);
     }
 
     public void showr20a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr20b(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setText(bacteri4);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr21(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setText(bacteri3);
+        trs4.setText(bacteri4);
+        trs5.setText(bacteri5);
+        trs6.setText(bacteri6);
+        trs7.setText(bacteri7);
+        trs8.setText(bacteri8);
+        trs9.setText(bacteri9);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setText(bacteri12);
+        trs13.setText(bacteri13);
+        trs14.setVisibility(View.GONE);
+        trs15.setText(bacteri15);
     }
 
     public void showr21a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr22(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setText(bacteri10);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setText(bacteri14);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr22a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr22b(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setText(bacteri11);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr23(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setText(bacteri3);
+        trs4.setText(bacteri4);
+        trs5.setVisibility(View.GONE);
+        trs6.setText(bacteri6);
+        trs7.setText(bacteri7);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr23a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setText(bacteri5);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr24(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setText(bacteri8);
+        trs9.setText(bacteri9);
+        trs10.setText(bacteri10);
+        trs11.setText(bacteri11);
+        trs12.setText(bacteri12);
+        trs13.setText(bacteri13);
+        trs14.setText(bacteri14);
+        trs15.setText(bacteri15);
     }
 
     public void showr24a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr24b(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr25(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setText(bacteri4);
+        trs5.setText(bacteri4);
+        trs6.setVisibility(View.GONE);
+        trs7.setText(bacteri7);
+        trs8.setVisibility(View.GONE);
+        trs9.setText(bacteri9);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setText(bacteri12);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr25a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr26(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setText(bacteri8);
+        trs9.setVisibility(View.GONE);
+        trs10.setText(bacteri10);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setText(bacteri13);
+        trs14.setText(bacteri14);
+        trs15.setText(bacteri15);
     }
 
     public void showr26a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setText(bacteri3);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setText(bacteri6);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setText(bacteri11);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr26b(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr27(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setText(bacteri3);
+        trs4.setText(bacteri4);
+        trs5.setText(bacteri5);
+        trs6.setText(bacteri6);
+        trs7.setText(bacteri7);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setText(bacteri12);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setText(bacteri15);
     }
 
     public void showr27a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setText(bacteri10);
+        trs11.setText(bacteri11);
+        trs12.setVisibility(View.GONE);
+        trs13.setText(bacteri13);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr28(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setText(bacteri8);
+        trs9.setText(bacteri9);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setText(bacteri14);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr28a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr28b(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr29(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setText(bacteri3);
+        trs4.setText(bacteri4);
+        trs5.setText(bacteri5);
+        trs6.setText(bacteri6);
+        trs7.setText(bacteri7);
+        trs8.setText(bacteri8);
+        trs9.setText(bacteri9);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setText(bacteri12);
+        trs13.setText(bacteri13);
+        trs14.setText(bacteri14);
+        trs15.setText(bacteri15);
     }
 
     public void showr29a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setText(bacteri10);
+        trs11.setText(bacteri11);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr30(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr30a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr30b(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr31(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setText(bacteri1);
+        trs2.setVisibility(View.GONE);
+        trs3.setText(bacteri3);
+        trs4.setText(bacteri4);
+        trs5.setText(bacteri5);
+        trs6.setText(bacteri6);
+        trs7.setText(bacteri7);
+        trs8.setText(bacteri8);
+        trs9.setText(bacteri9);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setText(bacteri12);
+        trs13.setText(bacteri13);
+        trs14.setText(bacteri14);
+        trs15.setText(bacteri15);
     }
 
     public void showr31a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr32(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setText(bacteri2);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setText(bacteri10);
+        trs11.setText(bacteri11);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void showr32a(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
 
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
+    }
+
+    public void showr32b(){
+        final TextView trs1 = (TextView) findViewById(R.id.trs1);
+        final TextView trs2 = (TextView) findViewById(R.id.trs2);
+        final TextView trs3 = (TextView) findViewById(R.id.trs3);
+        final TextView trs4 = (TextView) findViewById(R.id.trs4);
+        final TextView trs5 = (TextView) findViewById(R.id.trs5);
+        final TextView trs6 = (TextView) findViewById(R.id.trs6);
+        final TextView trs7 = (TextView) findViewById(R.id.trs7);
+        final TextView trs8 = (TextView) findViewById(R.id.trs8);
+        final TextView trs9 = (TextView) findViewById(R.id.trs9);
+        final TextView trs10 = (TextView) findViewById(R.id.trs10);
+        final TextView trs11 = (TextView) findViewById(R.id.trs11);
+        final TextView trs12 = (TextView) findViewById(R.id.trs12);
+        final TextView trs13 = (TextView) findViewById(R.id.trs13);
+        final TextView trs14 = (TextView) findViewById(R.id.trs14);
+        final TextView trs15 = (TextView) findViewById(R.id.trs15);
+
+        final String bacteri1 = "Aeromonas hydrophila";
+        final String bacteri2 = "Alcaligenes faecalis";
+        final String bacteri3 = "Citrobacter freundii";
+        final String bacteri4 = "Enterobacter aerogenes";
+        final String bacteri5 = "Enterobacter cloacae";
+        final String bacteri6 = "Escherichia coli";
+        final String bacteri7 = "Klebsiella pneumoniae";
+        final String bacteri8 = "Proteus mirabilis";
+        final String bacteri9 = "Proteus vulgaris";
+        final String bacteri10 = "Pseudomonas aeruginosa";
+        final String bacteri11 = "Pseudomonas fluorescens";
+        final String bacteri12 = "Serratia marcescens";
+        final String bacteri13 = "Shigella flexneri";
+        final String bacteri14 = "Shigella dysentriae";
+        final String bacteri15 = "Salmonella typhimurium";
+
+        trs1.setVisibility(View.GONE);
+        trs2.setVisibility(View.GONE);
+        trs3.setVisibility(View.GONE);
+        trs4.setVisibility(View.GONE);
+        trs5.setVisibility(View.GONE);
+        trs6.setVisibility(View.GONE);
+        trs7.setVisibility(View.GONE);
+        trs8.setVisibility(View.GONE);
+        trs9.setVisibility(View.GONE);
+        trs10.setVisibility(View.GONE);
+        trs11.setVisibility(View.GONE);
+        trs12.setVisibility(View.GONE);
+        trs13.setVisibility(View.GONE);
+        trs14.setVisibility(View.GONE);
+        trs15.setVisibility(View.GONE);
     }
 
     public void hide(){
