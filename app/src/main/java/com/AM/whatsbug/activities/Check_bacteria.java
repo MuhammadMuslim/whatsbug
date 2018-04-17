@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageView;
@@ -18,7 +19,90 @@ public class Check_bacteria extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_list_bacteria);
+
+        final CheckBox r1 = (CheckBox) findViewById(R.id.r1);
+        final CheckBox r1a = (CheckBox) findViewById(R.id.r1a);
+        final CheckBox r2 = (CheckBox) findViewById(R.id.r2);
+        final CheckBox r2b = (CheckBox) findViewById(R.id.r2b);
+        final CheckBox r2a = (CheckBox) findViewById(R.id.r2a);
+        final CheckBox r3 = (CheckBox) findViewById(R.id.r3);
+        final CheckBox r3a = (CheckBox) findViewById(R.id.r3a);
+        final CheckBox r4 = (CheckBox) findViewById(R.id.r4);
+        final CheckBox r4b = (CheckBox) findViewById(R.id.r4b);
+        final CheckBox r4a = (CheckBox) findViewById(R.id.r4a);
+        final CheckBox r5 = (CheckBox) findViewById(R.id.r5);
+        final CheckBox r5a = (CheckBox) findViewById(R.id.r5a);
+        final CheckBox r6 = (CheckBox) findViewById(R.id.r6);
+        final CheckBox r6b = (CheckBox) findViewById(R.id.r6b);
+        final CheckBox r6a = (CheckBox) findViewById(R.id.r6a);
+        final CheckBox r7 = (CheckBox) findViewById(R.id.r7);
+        final CheckBox r7a = (CheckBox) findViewById(R.id.r7a);
+        final CheckBox r8 = (CheckBox) findViewById(R.id.r8);
+        final CheckBox r8a = (CheckBox) findViewById(R.id.r8a);
+        final CheckBox r8b = (CheckBox) findViewById(R.id.r8b);
+        final CheckBox r9 = (CheckBox) findViewById(R.id.r9);
+        final CheckBox r9a = (CheckBox) findViewById(R.id.r9a);
+        final CheckBox r10 = (CheckBox) findViewById(R.id.r10);
+        final CheckBox r10b = (CheckBox) findViewById(R.id.r10b);
+        final CheckBox r10a = (CheckBox) findViewById(R.id.r10a);
+        final CheckBox r11 = (CheckBox) findViewById(R.id.r11);
+        final CheckBox r11a = (CheckBox) findViewById(R.id.r11a);
+        final CheckBox r12 = (CheckBox) findViewById(R.id.r12);
+        final CheckBox r12b = (CheckBox) findViewById(R.id.r12b);
+        final CheckBox r12a = (CheckBox) findViewById(R.id.r12a);
+        final CheckBox r13 = (CheckBox) findViewById(R.id.r13);
+        final CheckBox r13a = (CheckBox) findViewById(R.id.r13a);
+        final CheckBox r14 = (CheckBox) findViewById(R.id.r14);
+        final CheckBox r14b = (CheckBox) findViewById(R.id.r14b);
+        final CheckBox r14a = (CheckBox) findViewById(R.id.r14a);
+        final CheckBox r15 = (CheckBox) findViewById(R.id.r15);
+        final CheckBox r15a = (CheckBox) findViewById(R.id.r15a);
+        final CheckBox r16 = (CheckBox) findViewById(R.id.r16);
+        final CheckBox r16a = (CheckBox) findViewById(R.id.r16a);
+        final CheckBox r16b = (CheckBox) findViewById(R.id.r16b);
+        final CheckBox r17 = (CheckBox) findViewById(R.id.r17);
+        final CheckBox r17a = (CheckBox) findViewById(R.id.r17a);
+        final CheckBox r18 = (CheckBox) findViewById(R.id.r18);
+        final CheckBox r18b = (CheckBox) findViewById(R.id.r18b);
+        final CheckBox r18a = (CheckBox) findViewById(R.id.r18a);
+        final CheckBox r19 = (CheckBox) findViewById(R.id.r19);
+        final CheckBox r19a = (CheckBox) findViewById(R.id.r19a);
+        final CheckBox r20 = (CheckBox) findViewById(R.id.r20);
+        final CheckBox r20b = (CheckBox) findViewById(R.id.r20b);
+        final CheckBox r20a = (CheckBox) findViewById(R.id.r20a);
+        final CheckBox r21 = (CheckBox) findViewById(R.id.r21);
+        final CheckBox r21a = (CheckBox) findViewById(R.id.r21a);
+        final CheckBox r22 = (CheckBox) findViewById(R.id.r22);
+        final CheckBox r22b = (CheckBox) findViewById(R.id.r22b);
+        final CheckBox r22a = (CheckBox) findViewById(R.id.r22a);
+        final CheckBox r23 = (CheckBox) findViewById(R.id.r23);
+        final CheckBox r23a = (CheckBox) findViewById(R.id.r23a);
+        final CheckBox r24 = (CheckBox) findViewById(R.id.r24);
+        final CheckBox r24b = (CheckBox) findViewById(R.id.r24b);
+        final CheckBox r24a = (CheckBox) findViewById(R.id.r24a);
+        final CheckBox r25 = (CheckBox) findViewById(R.id.r25);
+        final CheckBox r25a = (CheckBox) findViewById(R.id.r25a);
+        final CheckBox r26 = (CheckBox) findViewById(R.id.r26);
+        final CheckBox r26b = (CheckBox) findViewById(R.id.r26b);
+        final CheckBox r26a = (CheckBox) findViewById(R.id.r26a);
+        final CheckBox r27 = (CheckBox) findViewById(R.id.r27);
+        final CheckBox r27a = (CheckBox) findViewById(R.id.r27a);
+        final CheckBox r28 = (CheckBox) findViewById(R.id.r28);
+        final CheckBox r28b = (CheckBox) findViewById(R.id.r28b);
+        final CheckBox r28a = (CheckBox) findViewById(R.id.r28a);
+        final CheckBox r29 = (CheckBox) findViewById(R.id.r29);
+        final CheckBox r29a = (CheckBox) findViewById(R.id.r29a);
+        final CheckBox r30 = (CheckBox) findViewById(R.id.r30);
+        final CheckBox r30b = (CheckBox) findViewById(R.id.r30b);
+        final CheckBox r30a = (CheckBox) findViewById(R.id.r30a);
+        final CheckBox r31 = (CheckBox) findViewById(R.id.r31);
+        final CheckBox r31a = (CheckBox) findViewById(R.id.r31a);
+        final CheckBox r32 = (CheckBox) findViewById(R.id.r32);
+        final CheckBox r32b = (CheckBox) findViewById(R.id.r32b);
+        final CheckBox r32a = (CheckBox) findViewById(R.id.r32a);
+
 
         final TextView trs1 = (TextView) findViewById(R.id.trs1);
         final TextView trs2 = (TextView) findViewById(R.id.trs2);
@@ -534,89 +618,6 @@ public class Check_bacteria extends AppCompatActivity {
         TextView t15 = (TextView) findViewById(R.id.t15);
         TextView t16 = (TextView) findViewById(R.id.t16);
 
-
-        final CheckBox r1 = (CheckBox) findViewById(R.id.r1);
-        final CheckBox r1a = (CheckBox) findViewById(R.id.r1a);
-        final CheckBox r2 = (CheckBox) findViewById(R.id.r2);
-        final CheckBox r2b = (CheckBox) findViewById(R.id.r2b);
-        final CheckBox r2a = (CheckBox) findViewById(R.id.r2a);
-        final CheckBox r3 = (CheckBox) findViewById(R.id.r3);
-        final CheckBox r3a = (CheckBox) findViewById(R.id.r3a);
-        final CheckBox r4 = (CheckBox) findViewById(R.id.r4);
-        final CheckBox r4b = (CheckBox) findViewById(R.id.r4b);
-        final CheckBox r4a = (CheckBox) findViewById(R.id.r4a);
-        final CheckBox r5 = (CheckBox) findViewById(R.id.r5);
-        final CheckBox r5a = (CheckBox) findViewById(R.id.r5a);
-        final CheckBox r6 = (CheckBox) findViewById(R.id.r6);
-        final CheckBox r6b = (CheckBox) findViewById(R.id.r6b);
-        final CheckBox r6a = (CheckBox) findViewById(R.id.r6a);
-        final CheckBox r7 = (CheckBox) findViewById(R.id.r7);
-        final CheckBox r7a = (CheckBox) findViewById(R.id.r7a);
-        final CheckBox r8 = (CheckBox) findViewById(R.id.r8);
-        final CheckBox r8a = (CheckBox) findViewById(R.id.r8a);
-        final CheckBox r8b = (CheckBox) findViewById(R.id.r8b);
-        final CheckBox r9 = (CheckBox) findViewById(R.id.r9);
-        final CheckBox r9a = (CheckBox) findViewById(R.id.r9a);
-        final CheckBox r10 = (CheckBox) findViewById(R.id.r10);
-        final CheckBox r10b = (CheckBox) findViewById(R.id.r10b);
-        final CheckBox r10a = (CheckBox) findViewById(R.id.r10a);
-        final CheckBox r11 = (CheckBox) findViewById(R.id.r11);
-        final CheckBox r11a = (CheckBox) findViewById(R.id.r11a);
-        final CheckBox r12 = (CheckBox) findViewById(R.id.r12);
-        final CheckBox r12b = (CheckBox) findViewById(R.id.r12b);
-        final CheckBox r12a = (CheckBox) findViewById(R.id.r12a);
-        final CheckBox r13 = (CheckBox) findViewById(R.id.r13);
-        final CheckBox r13a = (CheckBox) findViewById(R.id.r13a);
-        final CheckBox r14 = (CheckBox) findViewById(R.id.r14);
-        final CheckBox r14b = (CheckBox) findViewById(R.id.r14b);
-        final CheckBox r14a = (CheckBox) findViewById(R.id.r14a);
-        final CheckBox r15 = (CheckBox) findViewById(R.id.r15);
-        final CheckBox r15a = (CheckBox) findViewById(R.id.r15a);
-        final CheckBox r16 = (CheckBox) findViewById(R.id.r16);
-        final CheckBox r16a = (CheckBox) findViewById(R.id.r16a);
-        final CheckBox r16b = (CheckBox) findViewById(R.id.r16b);
-        final CheckBox r17 = (CheckBox) findViewById(R.id.r17);
-        final CheckBox r17a = (CheckBox) findViewById(R.id.r17a);
-        final CheckBox r18 = (CheckBox) findViewById(R.id.r18);
-        final CheckBox r18b = (CheckBox) findViewById(R.id.r18b);
-        final CheckBox r18a = (CheckBox) findViewById(R.id.r18a);
-        final CheckBox r19 = (CheckBox) findViewById(R.id.r19);
-        final CheckBox r19a = (CheckBox) findViewById(R.id.r19a);
-        final CheckBox r20 = (CheckBox) findViewById(R.id.r20);
-        final CheckBox r20b = (CheckBox) findViewById(R.id.r20b);
-        final CheckBox r20a = (CheckBox) findViewById(R.id.r20a);
-        final CheckBox r21 = (CheckBox) findViewById(R.id.r21);
-        final CheckBox r21a = (CheckBox) findViewById(R.id.r21a);
-        final CheckBox r22 = (CheckBox) findViewById(R.id.r22);
-        final CheckBox r22b = (CheckBox) findViewById(R.id.r22b);
-        final CheckBox r22a = (CheckBox) findViewById(R.id.r22a);
-        final CheckBox r23 = (CheckBox) findViewById(R.id.r23);
-        final CheckBox r23a = (CheckBox) findViewById(R.id.r23a);
-        final CheckBox r24 = (CheckBox) findViewById(R.id.r24);
-        final CheckBox r24b = (CheckBox) findViewById(R.id.r24b);
-        final CheckBox r24a = (CheckBox) findViewById(R.id.r24a);
-        final CheckBox r25 = (CheckBox) findViewById(R.id.r25);
-        final CheckBox r25a = (CheckBox) findViewById(R.id.r25a);
-        final CheckBox r26 = (CheckBox) findViewById(R.id.r26);
-        final CheckBox r26b = (CheckBox) findViewById(R.id.r26b);
-        final CheckBox r26a = (CheckBox) findViewById(R.id.r26a);
-        final CheckBox r27 = (CheckBox) findViewById(R.id.r27);
-        final CheckBox r27a = (CheckBox) findViewById(R.id.r27a);
-        final CheckBox r28 = (CheckBox) findViewById(R.id.r28);
-        final CheckBox r28b = (CheckBox) findViewById(R.id.r28b);
-        final CheckBox r28a = (CheckBox) findViewById(R.id.r28a);
-        final CheckBox r29 = (CheckBox) findViewById(R.id.r29);
-        final CheckBox r29a = (CheckBox) findViewById(R.id.r29a);
-        final CheckBox r30 = (CheckBox) findViewById(R.id.r30);
-        final CheckBox r30b = (CheckBox) findViewById(R.id.r30b);
-        final CheckBox r30a = (CheckBox) findViewById(R.id.r30a);
-        final CheckBox r31 = (CheckBox) findViewById(R.id.r31);
-        final CheckBox r31a = (CheckBox) findViewById(R.id.r31a);
-        final CheckBox r32 = (CheckBox) findViewById(R.id.r32);
-        final CheckBox r32b = (CheckBox) findViewById(R.id.r32b);
-        final CheckBox r32a = (CheckBox) findViewById(R.id.r32a);
-
-
         t1.setText(getIntent().getStringExtra("data1"));
         t2.setText(getIntent().getStringExtra("data2"));
         t3.setText(getIntent().getStringExtra("data3"));
@@ -948,6 +949,7 @@ public class Check_bacteria extends AppCompatActivity {
         btcheck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 boolean checked = btcheck.isClickable();
                 if (checked){
                     if(r1.isChecked()) {
@@ -1376,7 +1378,6 @@ public class Check_bacteria extends AppCompatActivity {
                 }else {
                     hide();
                 }
-
             }
         });
 
