@@ -49,6 +49,7 @@ public class List_bacteria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 animateFAB();
+                Toast.makeText(getApplicationContext(), "Check Bacteria", Toast.LENGTH_SHORT).show();
             }
         });
 
