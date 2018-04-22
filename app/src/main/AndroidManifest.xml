@@ -24,7 +24,7 @@
             android:name=".activities.UsersListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.Check_bacteria"/>
+            android:name=".activities.Bacteria_gram_negative"/>
         <activity android:name=".activities.List_bacteria" />
         <activity
             android:name=".activities.MainActivity"
@@ -37,6 +37,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.Result"></activity>
+        <activity android:name=".activities.Bacteria_gram_positive"></activity>
+        <activity android:name=".activities.SearchActivity"></activity>
     </application>
 
 </manifest>

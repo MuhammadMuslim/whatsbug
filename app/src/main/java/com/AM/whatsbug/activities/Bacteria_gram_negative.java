@@ -14,13 +14,13 @@ import android.widget.ToggleButton;
 
 import com.AM.whatsbug.R;
 
-public class Check_bacteria extends AppCompatActivity {
+public class Bacteria_gram_negative extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_list_bacteria);
+        setContentView(R.layout.activity_bacteria_gram_negative);
 
         final CheckBox r1 = (CheckBox) findViewById(R.id.r1);
         final CheckBox r1a = (CheckBox) findViewById(R.id.r1a);
@@ -139,7 +139,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -170,7 +170,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -201,7 +201,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -232,7 +232,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -263,7 +263,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -294,7 +294,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -325,7 +325,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -356,7 +356,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -387,7 +387,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -418,7 +418,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -449,7 +449,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -480,7 +480,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -511,7 +511,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -542,7 +542,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -573,7 +573,7 @@ public class Check_bacteria extends AppCompatActivity {
         trs15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Dialog dialog = new Dialog(Check_bacteria.this);
+                final Dialog dialog = new Dialog(Bacteria_gram_negative.this);
                 dialog.setContentView(R.layout.popup);
                 dialog.setTitle("Detail");
                 TextView tnm = (TextView) dialog.findViewById(R.id.nm);
@@ -953,424 +953,424 @@ public class Check_bacteria extends AppCompatActivity {
                 boolean checked = btcheck.isClickable();
                 if (checked){
                     if(r1.isChecked()) {
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r1.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr1();
                     }if(r1a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r1a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr1a();
                     }if(r2.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r2.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr2();
                     }if(r2b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r2b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr2b();
                     }if(r2a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r2a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr2a();
                     }if(r3.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r3.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr3();
                     }if(r3a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r3a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr3a();
                     }if(r4.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r4.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr4();
                     }if(r4b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r4b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr2b();
                     }if(r4a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r4a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr4a();
                     }if(r5.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r5.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr5();
                     }if(r5a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r5a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr5a();
                     }if(r6.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r6.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr6();
                     }if(r6b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r6b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr2b();
                     }if(r6a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r6a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr6a();
                     }if(r7.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r7.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr7();
                     }if(r7a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r7a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr7a();
                     }if(r8.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r8.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr8();
                     }if(r8a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r8a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr8a();
                     }if(r8b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r8b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr8b();
                     }
                     if(r9.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r9.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr9();
                     }if(r9a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r9a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr9a();
                     }if(r10.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r10.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr10();
                     }if(r10a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r10a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr10a();
                     }if(r10b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r10b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr10b();
                     }
                     if(r11.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r11.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr11();
                     }if(r11a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r11a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr11a();
                     }
                     if(r12.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r12.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr12();
                     }if(r12a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r12a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr12a();
                     }if(r12b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r12b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr12b();
                     }
                     if(r13.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r13.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr13();
                     }if(r13a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r13a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr13a();
                     }
                     if(r14.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r14.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr14();
                     }if(r14a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r14a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr14a();
                     }if(r14b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r14b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr14b();
                     }
                     if(r15.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r15.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr15();
                     }if(r15a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r15a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr15a();
                     }
                     if(r16.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r16.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr16();
                     }if(r16a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r16a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr16a();
                     }if(r16b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r16b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr16b();
                     }
                     if(r17.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r17.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr17();
                     }if(r17a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r17a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr17a();
                     }
                     if(r18.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r18.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr18a();
                     }if(r18a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r18a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr18a();
                     }if(r18b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r18b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr18b();
                     }
                     if(r19.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r19.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr19();
                     }if(r19a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r19a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr19a();
                     }
                     if(r20.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r20.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr20();
                     }if(r20a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r20a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr20a();
                     }if(r20b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r20b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr20b();
                     }
                     if(r21.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r21.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr21();
                     }if(r21a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r21a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr21a();
                     }if(r22.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r22.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr22();
                     }if(r22a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r22a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr22a();
                     }if(r22b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r22b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr22b();
                     }
                     if(r23.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r23.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr23();
                     }if(r23a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r23a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr23a();
                     }
                     if(r24.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r24.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr24();
                     }if(r24a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r24a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr24a();
                     }if(r24b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r24b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr24b();
                     }
                     if(r25.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r25.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr25();
                     }if(r25a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r25a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr25a();
                     }
                     if(r26.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r26.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr26();
                     }if(r26a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r26a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr26a();
                     }if(r26b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r26b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr26b();
                     }
                     if(r27.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r27.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr27();
                     }if(r27a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r27a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr27a();
                     }
                     if(r28.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r28.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr28();
                     }if(r28a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r28a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr28a();
                     }if(r28b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r28b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr28b();
                     }
                     if(r29.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r29.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr29();
                     }if(r29a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r29a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr29a();
                     }
                     if(r30.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r30.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr30();
                     }if(r30a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r30a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr30a();
                     }if(r30b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r30b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr30b();
                     }
                     if(r31.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r31.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr31();
                     }if(r31a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r31a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr31a();
                     }
                     if(r32.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r32.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr32();
                     }if(r32a.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r32a.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr32a();
                     }if(r32b.isChecked()){
-                        Toast.makeText(Check_bacteria.this,
+                        Toast.makeText(Bacteria_gram_negative.this,
                                 r32b.getText(), Toast.LENGTH_SHORT).show();
                         show();
                         showr32b();

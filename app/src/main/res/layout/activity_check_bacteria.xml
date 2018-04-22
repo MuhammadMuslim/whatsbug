@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".activities.Check_bacteria"
+    tools:context=".activities.Bacteria_gram_negative"
     android:weightSum="1">
 
     <TextView
@@ -155,6 +155,30 @@
 
                         android:checked="false"
                         android:text="Nitrate reduction" />
+
+                    <CheckBox
+                        android:id="@+id/cb17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:checked="false"
+                        android:text="Endospores" />
+
+                    <CheckBox
+                        android:id="@+id/cb18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:checked="false"
+                        android:text="Hemolysis" />
+
+                    <CheckBox
+                        android:id="@+id/cb19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:checked="false"
+                        android:text="Mannose" />
 
 
                 </LinearLayout>

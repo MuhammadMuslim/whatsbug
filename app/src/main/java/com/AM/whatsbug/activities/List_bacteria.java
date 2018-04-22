@@ -18,7 +18,7 @@ import android.widget.Toast;
 import com.AM.whatsbug.R;
 
 public class List_bacteria extends AppCompatActivity {
-    CheckBox cb1, cb2,cb3,cb4,cb5,cb6,cb7,cb8,cb9,cb10,cb11,cb12,cb13,cb14,cb15,cb16;
+    CheckBox cb1, cb2,cb3,cb4,cb5,cb6,cb7,cb8,cb9,cb10,cb11,cb12,cb13,cb14,cb15,cb16,cb17,cb18,cb19;
     Button btn1;
     private Boolean isFabOpen = false;
     private FloatingActionButton fab, fab1, fab2;
@@ -49,14 +49,14 @@ public class List_bacteria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 animateFAB();
-                Toast.makeText(getApplicationContext(), "Check Bacteria", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Check Gram Bacteria", Toast.LENGTH_SHORT).show();
             }
         });
 
         fab1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(List_bacteria.this, Check_bacteria.class);
+                Intent intent = new Intent(List_bacteria.this, Bacteria_gram_negative.class);
 
                 String a="";
                 String b="";
@@ -184,6 +184,153 @@ public class List_bacteria extends AppCompatActivity {
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent intent = new Intent(List_bacteria.this, Bacteria_gram_positive.class);
+
+                String a="";
+                String b="";
+                String c="";
+                String d="";
+                String e="";
+                String f="";
+                String g="";
+                String h="";
+                String i="";
+                String j="";
+                String k="";
+                String l="";
+                String m="";
+                String n="";
+                String o="";
+                String p="";
+                String q="";
+                String r="";
+                String s="";
+
+                if(cb1.isChecked()){
+                    a+="1";
+                }else{
+                    a+="0";
+                }
+                if(cb2.isChecked()){
+                    b+="1";
+                }else{
+                    b+="0";
+                }
+                if(cb3.isChecked()){
+                    c+="1";
+                }else{
+                    c+="0";
+                }
+                if(cb4.isChecked()){
+                    d+="1";
+                }else{
+                    d+="0";
+                }
+                if(cb5.isChecked()){
+                    e+="1";
+                }else{
+                    e+="0";
+                }
+                if(cb6.isChecked()) {
+                    f +="1";
+                }else{
+                    f+="0";
+                }
+
+                if(cb7.isChecked()){
+                    g+="1";
+                }else{
+                    g+="0";
+                }
+
+                if(cb8.isChecked()) {
+                    h +="1";
+                }else{
+                    h+="0";
+                }
+                if(cb9.isChecked()){
+                    i+="1";
+                }else{
+                    i+="0";
+                }
+                if(cb10.isChecked()){
+                    j+="1";
+                }else{
+                    j+="0";
+                }
+                if(cb11.isChecked()){
+                    k+="1";
+                }else{
+                    k+="0";
+                }
+                if(cb12.isChecked()){
+                    l+="1";
+                }else{
+                    l+="0";
+                }
+                if(cb13.isChecked()){
+                    m+="1";
+                }else{
+                    m+="0";
+                }
+                if(cb14.isChecked()) {
+                    n +="1";
+                }else{
+                    n+="0";
+                }
+
+                if(cb15.isChecked()){
+                    o+="1";
+                }else{
+                    o+="0";
+                }
+
+                if(cb16.isChecked()){
+                    p+="1";
+                }else{
+                    p+="0";
+                }
+
+                if(cb17.isChecked()){
+                    q+="1";
+                }else{
+                    q+="0";
+                }
+
+                if(cb18.isChecked()){
+                    r+="1";
+                }else{
+                    r+="0";
+                }
+
+                if(cb16.isChecked()){
+                    s+="1";
+                }else{
+                    s+="0";
+                }
+
+                intent.putExtra("data1", a);
+                intent.putExtra("data2", b);
+                intent.putExtra("data3", c);
+                intent.putExtra("data4", d);
+                intent.putExtra("data5", e);
+                intent.putExtra("data6", f);
+                intent.putExtra("data7", g);
+                intent.putExtra("data8", h);
+                intent.putExtra("data9", i);
+                intent.putExtra("data10", j);
+                intent.putExtra("data11", k);
+                intent.putExtra("data12", l);
+                intent.putExtra("data13", m);
+                intent.putExtra("data14", n);
+                intent.putExtra("data15", o);
+                intent.putExtra("data16", p);
+                intent.putExtra("data17", q);
+                intent.putExtra("data18", r);
+                intent.putExtra("data19", s);
+                startActivity(intent);
+
                 Toast.makeText(com.AM.whatsbug.activities.List_bacteria.this, "Gram Positive", Toast.LENGTH_SHORT).show();
             }
         });
@@ -204,6 +351,9 @@ public class List_bacteria extends AppCompatActivity {
         cb14 = (CheckBox)findViewById(R.id.cb14);
         cb15 = (CheckBox)findViewById(R.id.cb15);
         cb16 = (CheckBox)findViewById(R.id.cb16);
+        cb17 = (CheckBox)findViewById(R.id.cb17);
+        cb18 = (CheckBox)findViewById(R.id.cb18);
+        cb19 = (CheckBox)findViewById(R.id.cb19);
     }
     /*metode untuk menjalankan animasi
         pastikan apakah tombol dalam keadaan true atau false*/
