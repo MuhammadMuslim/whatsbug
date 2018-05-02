@@ -1587,7 +1587,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_below="@+id/t1"
                         android:layout_weight="1"
-                        android:text="+" />
+                        android:text="α" />
 
                     <CheckBox
                         android:id="@+id/r35a"
@@ -1597,7 +1597,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_below="@+id/t1"
                         android:layout_weight="1"
-                        android:text="[+]" />
+                        android:text="β" />
 
                     <CheckBox
                         android:id="@+id/r36"
@@ -1608,7 +1608,7 @@
                         android:layout_toEndOf="@+id/r1"
                         android:layout_toRightOf="@+id/r1"
                         android:layout_weight="1"
-                        android:text=" -" />
+                        android:text="ϒ" />
 
                     <CheckBox
                         android:id="@+id/r36b"
@@ -1619,7 +1619,7 @@
                         android:layout_toEndOf="@+id/r1"
                         android:layout_toRightOf="@+id/r1"
                         android:layout_weight="1"
-                        android:text="[-]" />
+                        android:text="+" />
 
                     <CheckBox
                         android:id="@+id/r36a"
@@ -1630,7 +1630,7 @@
                         android:layout_toEndOf="@+id/r1"
                         android:layout_toRightOf="@+id/r1"
                         android:layout_weight="1"
-                        android:text="d" />
+                        android:text="-" />
                 </LinearLayout>
 
             </LinearLayout>

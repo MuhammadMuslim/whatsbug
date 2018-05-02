@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i3 = new Intent(MainActivity.this, List_bacteria.class);
+                Intent i3 = new Intent(MainActivity.this, SearchActivity.class);
                 startActivity(i3);
                 Toast.makeText(getApplicationContext(), "Bacteria Searching", Toast.LENGTH_SHORT).show();
             }
