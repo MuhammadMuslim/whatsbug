@@ -10,27 +10,27 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/btlist"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignTop="@+id/btproceduretest"
         android:layout_marginEnd="55dp"
         android:layout_marginRight="55dp"
         app:srcCompat="@drawable/list" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/bttestbctri"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView"
-        android:layout_alignTop="@+id/imageView4"
-        app:srcCompat="@drawable/test" />
+        app:srcCompat="@drawable/test"
+        android:layout_alignTop="@+id/btsearch"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/btsearch"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_alignParentLeft="true"
@@ -42,14 +42,14 @@
         app:srcCompat="@drawable/search" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/btproceduretest"
         android:layout_width="120dp"
         android:layout_height="120dp"
         app:srcCompat="@drawable/research"
         android:layout_marginTop="96dp"
-        android:layout_below="@+id/imageView4"
-        android:layout_alignLeft="@+id/imageView4"
-        android:layout_alignStart="@+id/imageView4" />
+        android:layout_below="@+id/btsearch"
+        android:layout_alignLeft="@+id/btsearch"
+        android:layout_alignStart="@+id/btsearch" />
 
     <TextView
         android:id="@+id/textView3"
@@ -58,21 +58,21 @@
         android:gravity="center"
         android:text="Procedure of Biochemical Test"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_above="@+id/imageView"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView" />
+        android:layout_above="@+id/btlist"
+        android:layout_alignLeft="@+id/btlist"
+        android:layout_alignStart="@+id/btlist"
+        android:layout_alignRight="@+id/btlist"
+        android:layout_alignEnd="@+id/btlist" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView4"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_alignRight="@+id/imageView4"
-        android:layout_alignStart="@+id/imageView2"
+        android:layout_above="@+id/btlist"
+        android:layout_alignEnd="@+id/btsearch"
+        android:layout_alignLeft="@+id/btproceduretest"
+        android:layout_alignRight="@+id/btsearch"
+        android:layout_alignStart="@+id/btproceduretest"
         android:gravity="center"
         android:text="Procedure of Biochemical Test"
         android:textColor="@color/colorPrimaryDark" />
@@ -83,13 +83,13 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView4"
         android:layout_alignBottom="@+id/textView4"
-        android:layout_alignLeft="@+id/imageView3"
-        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignLeft="@+id/bttestbctri"
+        android:layout_alignStart="@+id/bttestbctri"
         android:gravity="center"
         android:text="Biochemical Test"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_alignRight="@+id/imageView3"
-        android:layout_alignEnd="@+id/imageView3" />
+        android:layout_alignRight="@+id/bttestbctri"
+        android:layout_alignEnd="@+id/bttestbctri" />
 
     <TextView
         android:id="@+id/textView4"
@@ -100,8 +100,8 @@
         android:text="Bacteria Searching"
         android:textColor="@color/colorPrimaryDark"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/imageView4"
-        android:layout_alignEnd="@+id/imageView4"
-        android:layout_alignLeft="@+id/imageView4"
-        android:layout_alignStart="@+id/imageView4" />
+        android:layout_alignRight="@+id/btsearch"
+        android:layout_alignEnd="@+id/btsearch"
+        android:layout_alignLeft="@+id/btsearch"
+        android:layout_alignStart="@+id/btsearch" />
 </RelativeLayout>

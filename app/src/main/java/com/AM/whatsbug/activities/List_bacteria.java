@@ -160,6 +160,18 @@ public class List_bacteria extends AppCompatActivity {
                     p+="0";
                 }
 
+                if(cb17.isChecked()){
+                    Toast.makeText(com.AM.whatsbug.activities.List_bacteria.this, "Nothing identification bacteria Gram Negative", Toast.LENGTH_SHORT).show();
+                }
+
+                if(cb18.isChecked()){
+                    Toast.makeText(com.AM.whatsbug.activities.List_bacteria.this, "Nothing identification bacteria Gram Negative", Toast.LENGTH_SHORT).show();
+                }
+
+                if(cb19.isChecked()){
+                    Toast.makeText(com.AM.whatsbug.activities.List_bacteria.this, "Nothing identification bacteria Gram Negative", Toast.LENGTH_SHORT).show();
+                }
+
                 intent.putExtra("data1", a);
                 intent.putExtra("data2", b);
                 intent.putExtra("data3", c);
@@ -304,7 +316,7 @@ public class List_bacteria extends AppCompatActivity {
                     r+="0";
                 }
 
-                if(cb16.isChecked()){
+                if(cb19.isChecked()){
                     s+="1";
                 }else{
                     s+="0";

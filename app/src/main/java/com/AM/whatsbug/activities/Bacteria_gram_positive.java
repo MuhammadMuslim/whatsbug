@@ -152,9 +152,9 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri1);
-                tgr.setText("Negative");
+                tgr.setText("Positive");
                 tmorp.setText("Rod");
-                tarr.setText("single");
+                tarr.setText("Chains");
                 tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
@@ -183,9 +183,9 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri2);
-                tgr.setText("Negative");
+                tgr.setText("Positive");
                 tmorp.setText("Rod");
-                tarr.setText("single");
+                tarr.setText("Chains");
                 tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
@@ -214,9 +214,9 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri3);
-                tgr.setText("Negative");
+                tgr.setText("Positive");
                 tmorp.setText("Rod");
-                tarr.setText("single");
+                tarr.setText("Chains");
                 tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
@@ -245,9 +245,9 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri4);
-                tgr.setText("Negative");
-                tmorp.setText("Rod");
-                tarr.setText("single");
+                tgr.setText("Positive");
+                tmorp.setText("Coccus");
+                tarr.setText("Chains");
                 tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
@@ -276,9 +276,9 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri5);
-                tgr.setText("Negative");
-                tmorp.setText("Rod");
-                tarr.setText("single");
+                tgr.setText("Positive");
+                tmorp.setText("Coccus");
+                tarr.setText("Chains");
                 tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
@@ -307,10 +307,10 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri6);
-                tgr.setText("Negative");
-                tmorp.setText("Rod");
-                tarr.setText("single");
-                tpigm.setText(" ");
+                tgr.setText("Positive");
+                tmorp.setText("Coccus");
+                tarr.setText("Clusters");
+                tpigm.setText("Yellow");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
 
@@ -338,9 +338,9 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri7);
-                tgr.setText("Negative");
-                tmorp.setText("Rod");
-                tarr.setText("single");
+                tgr.setText("Positive");
+                tmorp.setText("Coccus");
+                tarr.setText("Clusters");
                 tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
@@ -369,9 +369,9 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri8);
-                tgr.setText("Negative");
-                tmorp.setText("Rod");
-                tarr.setText("single");
+                tgr.setText("Positive");
+                tmorp.setText("Coccus");
+                tarr.setText("Clusters");
                 tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
@@ -400,9 +400,9 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri9);
-                tgr.setText("Negative");
-                tmorp.setText("Rod");
-                tarr.setText("single");
+                tgr.setText("Positive");
+                tmorp.setText("Coccus");
+                tarr.setText("Chains");
                 tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
@@ -431,10 +431,10 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                 TextView tarr = (TextView) dialog.findViewById(R.id.arr);
                 TextView tpigm = (TextView) dialog.findViewById(R.id.pigm);
                 tnm.setText(bacteri10);
-                tgr.setText("Negative");
-                tmorp.setText("Rod");
-                tarr.setText("single");
-                tpigm.setText("blue/green");
+                tgr.setText("Positive");
+                tmorp.setText("Coccus");
+                tarr.setText("Chains");
+                tpigm.setText(" ");
                 ImageView image = (ImageView) dialog.findViewById(R.id.iv_icon);
                 image.setImageResource(R.mipmap.ic_launcher);
 
@@ -908,7 +908,7 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r4b.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr2b();
+                        showr4b();
                     }if(r4a.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r4a.getText(), Toast.LENGTH_SHORT).show();
@@ -933,7 +933,7 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r6b.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr2b();
+                        showr6b();
                     }if(r6a.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r6a.getText(), Toast.LENGTH_SHORT).show();
@@ -1290,77 +1290,77 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r33a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr33();
                     }if(r33a.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r33a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr33a();
                     }if(r34.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r34.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr34();
                     }if(r34a.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r34a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr34a();
                     }if(r34b.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r34b.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr34b();
                     }if(r35.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r35.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr35();
                     }if(r35a.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r35a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr35a();
                     }if(r36.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r36.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr36();
                     }if(r36a.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r36a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr36a();
                     }if(r36b.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r36b.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr36b();
                     }if(r37.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r37.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr37();
                     }if(r37a.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r37a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr37a();
                     }if(r38.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r38.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr38();
                     }if(r38a.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r38a.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr8a();
                     }if(r38b.isChecked()){
                         Toast.makeText(Bacteria_gram_positive.this,
                                 r38b.getText(), Toast.LENGTH_SHORT).show();
                         show();
-                        showr32a();
+                        showr38b();
                     }
                 }else {
                     hide();
@@ -1409,7 +1409,7 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                         showr4a();
                     }else if(r4b.isChecked()) {
                         show();
-                        showr2b();
+                        showr4b();
                     }
                     else if(r5.isChecked()) {
                         show();
@@ -1425,7 +1425,7 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                         showr6a();
                     }else if(r6b.isChecked()) {
                         show();
-                        showr2b();
+                        showr6b();
                     }
                     else if(r7.isChecked()) {
                         show();
@@ -1637,49 +1637,49 @@ public class Bacteria_gram_positive extends AppCompatActivity {
                         showr32b();
                     }else if(r33.isChecked()) {
                         show();
-                        showr32a();
+                        showr33();
                     }else if(r33a.isChecked()) {
                         show();
-                        showr32a();
+                        showr33a();
                     }else if(r34.isChecked()) {
                         show();
-                        showr32a();
+                        showr34();
                     }else if(r34a.isChecked()) {
                         show();
-                        showr32a();
+                        showr34a();
                     }else if(r34b.isChecked()) {
                         show();
-                        showr32a();
+                        showr34b();
                     }else if(r35.isChecked()) {
                         show();
-                        showr32a();
+                        showr35();
                     }else if(r35a.isChecked()) {
                         show();
-                        showr32a();
+                        showr35a();
                     }else if(r36.isChecked()) {
                         show();
-                        showr32a();
+                        showr36();
                     }else if(r36a.isChecked()) {
                         show();
-                        showr32a();
+                        showr36a();
                     }else if(r36b.isChecked()) {
                         show();
-                        showr32a();
+                        showr36b();
                     }else if(r37.isChecked()) {
                         show();
-                        showr32a();
+                        showr37();
                     }else if(r37a.isChecked()) {
                         show();
-                        showr32a();
+                        showr37a();
                     }else if(r38.isChecked()) {
                         show();
-                        showr32a();
+                        showr38();
                     }else if(r38a.isChecked()) {
                         show();
-                        showr32a();
+                        showr38a();
                     }else if(r38b.isChecked()) {
                         show();
-                        showr32a();
+                        showr38b();
                     }
                     ish.setImageResource(R.drawable.show);
                 } else {

@@ -39,6 +39,7 @@
         <activity android:name=".activities.Result"></activity>
         <activity android:name=".activities.Bacteria_gram_positive"></activity>
         <activity android:name=".activities.SearchActivity"></activity>
+        <activity android:name=".activities.SearchProcedureActivity"></activity>
     </application>
 
 </manifest>

@@ -29,41 +29,41 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        ImageView img1 = (ImageView) findViewById(R.id.imageView);
+        ImageView img1 = (ImageView) findViewById(R.id.btlist);
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i1 = new Intent(MainActivity.this, List_bacteria.class);
-                startActivity(i1);
+//                Intent i1 = new Intent(MainActivity.this, List_bacteria.class);
+//                startActivity(i1);
                 Toast.makeText(getApplicationContext(), "Bacteria Searching", Toast.LENGTH_SHORT).show();
             }
         });
 
-        ImageView img2 = (ImageView) findViewById(R.id.imageView2);
+        ImageView img2 = (ImageView) findViewById(R.id.btproceduretest);
         img2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i2 = new Intent(MainActivity.this, SearchActivity.class);
+                Intent i2 = new Intent(MainActivity.this, SearchProcedureActivity.class);
                 startActivity(i2);
                 Toast.makeText(getApplicationContext(), "Bacteria Searching", Toast.LENGTH_SHORT).show();
             }
         });
 
-        ImageView img3 = (ImageView) findViewById(R.id.imageView3);
-        img1.setOnClickListener(new View.OnClickListener() {
+        ImageView img3 = (ImageView) findViewById(R.id.bttestbctri);
+        img3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i3 = new Intent(MainActivity.this, SearchActivity.class);
+                Intent i3 = new Intent(MainActivity.this, List_bacteria.class);
                 startActivity(i3);
                 Toast.makeText(getApplicationContext(), "Bacteria Searching", Toast.LENGTH_SHORT).show();
             }
         });
 
-        ImageView img4 = (ImageView) findViewById(R.id.imageView4);
+        ImageView img4 = (ImageView) findViewById(R.id.btsearch);
         img4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i4 = new Intent(MainActivity.this, List_bacteria.class);
+                Intent i4 = new Intent(MainActivity.this, SearchActivity.class);
                 startActivity(i4);
                 Toast.makeText(getApplicationContext(), "Bacteria Searching", Toast.LENGTH_SHORT).show();
             }
